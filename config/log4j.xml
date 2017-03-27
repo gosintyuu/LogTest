@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--LOG4J CONFIGURATION - XML style -->
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="DEBUG"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p - [%C{1}] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="FILE" class="org.apache.log4j.FileAppender">
+		<param name="Threshold" value="info"></param>
+		<param name="File" value="d:/Temp/log4j_file.log"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-d{yyyy-MM-dd HH:mm:ss} [ %t:%r ] - [ %p ]  %m%n " />
+		</layout>
+	</appender>
+	<!-- 输出日志到文件 每天一个文件 -->
+	<appender name="dailyRollingFile" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Threshold" value="WARN"></param>
+		<param name="ImmediateFlush" value="true"></param>
+		<param name="File" value="d:/Temp/log4j_dailyRollingFile.log"></param>
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss\} %-5p] [%t] {%c:%L}-%m%n"></param>
+		</layout>
+	</appender>
+	<!-- 输出日志到文件 文件大小到达指定尺寸的时候产生一个新的文件 -->
+	<appender name="railyFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="d:/Temp/log4j_railyFile.log"></param>
+		<param name="ImmediateFlush" value="true" />
+		<param name="Threshold" value="info"></param>
+		<param name="Append" value="true"></param>
+		<param name="MaxFileSize" value="30KB"></param>
+		<param name="MaxBackupIndex" value="100"></param>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss\} %-5p] [%t] {%c:%L}-%m%n"></param>
+		</layout>
+		<!--限制输出级别 -->
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMax" value="ERROR" />
+			<param name="LevelMin" value="TRACE" />
+		</filter>
+
+	</appender>
+	<!--通过<logger></logger>log4j包下面的输出会走这个分支 ，如果additivity="false"那么输出不会再走root这个分支了，也就是只对STDOUT输出，FILE等不会输出-->
+	<logger name="log4j" additivity="true">
+		<level value="INFO" />
+		<appender-ref ref="STDOUT" />
+	</logger>
+
+	<!--通过<category></category>的定义可以将各个包中的类日志输出到不同的日志文件中 -->
+	<category name="log4j.AA">
+		<level value="DEBUG" />
+		<appender-ref ref="STDOUT" />
+	</category>
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+		<appender-ref ref="dailyRollingFile" />
+		<appender-ref ref="railyFile" />
+	</root>
+
+</log4j:configuration>
+
