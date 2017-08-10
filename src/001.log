@@ -1,0 +1,191 @@
+	public PreparedStatement prepareQueryStatement(SQLCondition queryCondition, String busho) throws SQLException {
+		PreparedStatement ps = connection.prepareStatement(buildQuerySql(queryCondition, busho).toString());
+		log.debug(buildQuerySql(queryCondition,busho).toString());//Added by Li 2010/12/08 For PS ログ出力レベル
+		// 検索条件があるときはプレースホルダに値をセット
+		SQLCondition.IndividualCondition[] conditions = queryCondition.getConditions();
+		SQLCondition.InCondition[] inConditions = queryCondition.getInConditions();
+		if((conditions != null && conditions.length > 0) ||
+				(inConditions != null && inConditions.length > 0)){
+			setWhereClauseValue(ps, queryCondition, 1);
+		}
+		return ps;
+	}
+
+	public PreparedStatement prepareQueryAndLockStatement(SQLCondition queryCondition, String busho) throws SQLException {
+		// SELECT文にロック文を付加
+		StringBuffer sqlBuff = buildQuerySql(queryCondition, busho);
+		sqlBuff.append(" FOR UPDATE");
+		PreparedStatement ps = connection.prepareStatement(sqlBuff.toString());
+		log.debug(sqlBuff.toString());//Added by Li 2010/12/08 For PS ログ出力レベル
+		// 検索条件があるときはプレースホルダに値をセット
+		SQLCondition.IndividualCondition[] conditions = queryCondition.getConditions();
+		if(conditions != null && conditions.length > 0){
+			setWhereClauseValue(ps, queryCondition, 1);
+		}
+		return ps;
+	}
+
+	public PreparedStatement prepareUpdateStatement(SQLCondition updateCondition, Map values, String busho) throws SQLException {
+		return prepareUpdateStatement(updateCondition, values, true, busho);
+	}
+
+	public PreparedStatement prepareUpdateStatement(SQLCondition updateCondition, Map values, boolean isDateAutoSet, String busho) throws SQLException {
+		if(isDateAutoSet){
+			// 更新日を自動的にセット
+
+
+public PreparedStatement prepareQueryStatement(SQLCondition queryCondition, String busho) throws SQLException {
+		PreparedStatement ps = connection.prepareStatement(buildQuerySql(queryCondition, busho).toString());
+		log.debug(buildQuerySql(queryCondition,busho).toString());//Added by Li 2010/12/08 For PS ログ出力レベル
+		// 検索条件があるときはプレースホルダに値をセット
+		SQLCondition.IndividualCondition[] conditions = queryCondition.getConditions();
+		SQLCondition.InCondition[] inConditions = queryCondition.getInConditions();
+		if((conditions != null && conditions.length > 0) ||
+				(inConditions != null && inConditions.length > 0)){
+			setWhereClauseValue(ps, queryCondition, 1);
+		}
+		return ps;
+	}
+
+	public PreparedStatement prepareQueryAndLockStatement(SQLCondition queryCondition, String busho) throws SQLException {
+		// SELECT文にロック文を付加
+		StringBuffer sqlBuff = buildQuerySql(queryCondition, busho);
+		sqlBuff.append(" FOR UPDATE");
+		PreparedStatement ps = connection.prepareStatement(sqlBuff.toString());
+		//
+		log.debug(sqlBuff.toString());//Added by Li 2010/12/08 For PS ログ出力レベル
+		// 検索条件があるときはプレースホルダに値をセット
+		SQLCondition.IndividualCondition[] conditions = queryCondition.getConditions();
+		if(conditions != null && conditions.length > 0){
+			setWhereClauseValue(ps, queryCondition, 1);
+		}
+		return ps;
+	}
+
+	public PreparedStatement prepareUpdateStatement(SQLCondition updateCondition, Map values, String busho) throws SQLException {
+	各种各样的请求，相继的相谈
+	いろいろお願いついでに相談ですが
+
+　　バルブ的品番，南和相模存在重复的品番，南先登录了，存在相模的图面不能登录的情况
+	バルブの品番で、南と相模でダブっているものがあり、南に先に登録されてしまって
+	相模の図面が登録できない状況の物があります。
+
+	南登录的品番，亲太多了并且有的是生产无旧图，修改有难度
+	南で登録されているものは、親が多いのと生産無旧図だったり修正が困難です。
+
+	能在相模直接登录重复品番吗
+	むりやり相模にダブり品番登録できませんでしょうか？
+
+	请检讨
+	ご検討のほど、よろしくお願いします
+
+	直接在相模部门登录南游击部门的品番，只能DB直接登录，如果不是Xerox操作会有难度
+	無理やり相模セグメントに南油機の品番を登録する場合、DBに直接登録するしかないため、Xerox側でないと難しいと思われます
+
+	但是，出现了同样的品番，因为本来KEIMS2不存在这种case，可能会有不能正常运行的程序
+	ただし、同じ品番が重複した状態が生まれますので、本来KEIMS2では存在しないケースとなるため、うまく動かない機能がある可能性がございます
+
+	以前被告知过同样的事情、好像是相模已经登录了，南不能登录
+	以前南で同じようなことを言われ、確かにAAが相模に登録されていて、南で登録できないといわれました
+
+	现状重复的品番很多，会有问题吗
+	現状でもダブっている品番が多いですが、これは問題になるんでしょうか
+
+	因为数据移行 不同的部门已经存在了同样的品番，不同的部门存在同一品番的场合，确认是否存在不能正常运行的机能
+	データ移行で複数部門の間で同一品番がすでに存在している状態ですので、複数部門が同一品番が存在した場合、都合が悪い機能があるのか確認してみます
+
+	对于AA品番，需要DB直接登录，请允许我调整工作日程
+	AA品番については、DBに直接登録が必要になりますので作業日程など調整させていただければ存じます
+
+	多个部门存在同样的品番的时候，调查一下有没有不能正常工作的机能
+	複数部門で同一品番が存在する場合、正常動作しない機能があるのか、調査いただけないでしょうか。
+
+	在数据移行复数部门已经存在同一品番了，虽然应该没有问题，以防万一确认一下
+	既にデータ移行にて複数部門で同一品番が存在しているので、問題は無いとは思いますが念のため確認になります。
+
+	周一依赖的重复品番的事情，从客户拿到了想登录的品番列表
+	月曜日に依頼しておりました南と相模重複品番の件ですが、お客様より相模に登録したい品番リストを受領しました。
+
+	一览保存在下面的路径
+	リストは以下のパスに格納しています
+
+	能准备相模登录的SQL吗
+	品番リストを相模油機に登録するSQLスクリプトを準備いただけないでしょうか
+
+	解決策を打ち出す
+	ない形＋んがために = ために
+	メーリングリスト
+	仲介
+	仲立ち
+	気兼ねなく
+	をもって
+	名词＋からして　首先。。就
+	               从。。来判断
+	を皮切りにして
+	というところだ
+	を限りに
+	にあって
+
+
+		return prepareUpdateStatement(updateCondition, values, true, busho);
+	}
+
+	public PreparedStatement prepareUpdateStatement(SQLCondition updateCondition, Map values, boolean isDateAutoSet, String busho) throws SQLException {
+		if(isDateAutoSet){
+			// 更新日を自動的にセット
+			BuiltInAttributeDefinition updateDateColumn = BuiltInAttributeDefinition.getUpdateDateAttribute();
+			Calendar cal = GregorianCalendar.getInstance();
+			values.put(updateDateColumn.getColumnName(), cal.getTime());
+		}
+
+		StringBuffer sqlBuff = new StringBuffer("UPDATE ");
+		sqlBuff.append(updateCondition.getTableName());
+		sqlBuff.append(" SET ");
+
+		// 更新カラムの列挙
+		Object[] keys = values.keySet().toArray();
+		for(int i = 0;i < keys.length;i++){
+			sqlBuff.append(keys[i].toString());
+			sqlBuff.append(" = ?,");
+		}
+
+		// 最後の','を除去
+		sqlBuff.deleteCharAt(sqlBuff.length() - 1);
+
+		SQLCondition.IndividualCondition[] conditions = updateCondition.getConditions();
+		SQLCondition.InCondition[] inConditions = updateCondition.getInConditions();
+		// 更新条件があるときはWhere文を付加
+		if(conditions != null && (conditions.length > 0 || inConditions.length > 0)){
+			sqlBuff.append(buildWhereClause(updateCondition, busho));
+		}
+
+		// PreparedStatement生成
+		log.info(sqlBuff.toString());//Modified by Li 2010/12/08 For PS ログ出力レベル
+		PreparedStatement ps = connection.prepareStatement(sqlBuff.toString());
+
+		int parameterIndex = 1;
+		// 更新値のセット
+		for(int i = 0;i < keys.length;i++){
+			Object value = values.get(keys[i]);
+
+			if( value == null || value.equals(Constants.NULL_VALUE)){
+				ps.setObject(parameterIndex, null);
+			}else{
+				if(value instanceof String){
+					ps.setString(parameterIndex, (String)value);
+				}else if(value instanceof BigDecimal) {
+					ps.setBigDecimal(parameterIndex, (BigDecimal)value);
+				}else if(value instanceof Date){
+					java.util.Date date = (java.util.Date)value;
+					ps.setTimestamp(parameterIndex, new java.sql.Timestamp(date.getTime()));
+				}else if(value instanceof Boolean){
+					Boolean bool = (Boolean)value;
+					if(bool.booleanValue()){
+						ps.setInt(parameterIndex, SQLCondition.TRUE_VALUE);
+					}else{
+						ps.setInt(parameterIndex, SQLCondition.FALSE_VALUE);
+					}
+				}
+			}
+			log.info(keys[i] + " = " + value);//Modified by Li 2010/12/08 For PS ログ出力レベル
+			parameterIndex++;
