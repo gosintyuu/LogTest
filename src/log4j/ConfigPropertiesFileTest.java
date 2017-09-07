@@ -17,7 +17,7 @@ public class ConfigPropertiesFileTest {
 	public static Logger getLogger(Class cls) {
 		return Logger.getLogger(cls.getName());
 	}
-
+    てからというもの    そばから    なり    おいかける    が早いか    にあって　在。。。    において　における    門出    というところだ　＝　せいぜいだ    今年度を限りに　最後の。。    //皮切りにして    //んがため　積極的に行動    　仲立ち
 	public static void main(String[] args) {
 		Logger logger = getLogger(ConfigPropertiesFileTest.class);
 		logger.info("this is my info msgmsgaaamsgaaamsgaaamsgaaamsgaaamsgaaamsgaaaaaa");
