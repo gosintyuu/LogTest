@@ -24,7 +24,21 @@ http:/fdasdfsaasdfIRepordsfdsfx
                     initialContentAlignment: go.Spot.Center,  // center the content
                     "undoManager.isEnabled": true  // enable undo & redo
                   });
-
+	// セッションに定義が存在しない場合はセット
+					//したごころ　しつけ　いいぶん　情にうたれ　じんそく
+					//しあがり　しあげ
+					//うとうとねするがたがたふるえる
+					//気力ががっくりおちる
+					//くどくどくちをいう
+					//げらげらわらう
+					//てがざらざらしている
+					//あせがたらたらたれる
+					//へとへとつかれる
+					//合致　加味　きゃしゃ
+					searchResultColumns = user.getDocSearchResultTableDefinition(ItemCategory.get(categoryID),
+							connector);
+					if (searchResultColumns.getViewColumns() == null
+							|| searchResultColumns.getVi
     // define a simple Node template
     myDiagram.nodeTemplate =
       $(go.Node, "Auto",  // the Shape will go around the TextBlock
@@ -36,7 +50,17 @@ http:/fdasdfsaasdfIRepordsfdsfx
           // TextBlock.text is bound to Node.data.key
           new go.Binding("text", "key"))
       );
-
+	  ////うっとりうっかりうっすらうとうと　そよそよ
+				//むら　目つき　ゆさぶる　やたら
+				//ほとり まんじゅう 見なす　みれん
+				//無難
+				//ふくれる
+				//はんじょう　ひといき
+				//はしわたし
+				//ノイローゼ　はじらう　はじる
+				//ちょうほう　　でなおし　なんなり
+				Map<ItemCategory, DocSearchScreenDefinition> definiti
+	//なにげない｜さりげない｜なさげない｜えつげない
     // but use the default Link template, by not setting Diagram.linkTemplate
 
     // create the model data that will be represented by Nodes and Links
