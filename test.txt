@@ -1,2 +1,172 @@
-asdfddddddddddddddddadsasdf77777774444444
-dfasfffffffffffffffffffffffffffffffffffffffffffffffff
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minimal GoJS Sample</title>
+<meta name="description" content="An almost minimal diagram using a very simple node template and the default link template." />
+<!-- Copyright 1998-2017 by Northwoods Software Corporation. -->
+<meta charset="UTF-8">
+<script src="../release/go.js"></script>
+じみじみ　すっと　なにぶん　なにも　なんなりと　にやにや
+http:/fdasdfsaasdfIRepordsfdsfx
+せかせか　　ちらっと　時折突如　はきはき　ばったり
+・asdfasdfサーバー URL
+ふらふら　ぶるぶる　ぷんぷん　ぺこぺこ　めいめい　ぷかぷか
+<script src="../assets/js/goSamples.js"></script>  <!-- this is only for the GoJS Samples framework -->
+<script id="code">
+  function init() {
+    if (window.goSamples) goSamples();  // init for these samples -- you don't need to call this
+
+    var $ = go.GraphObject.make;  // for conciseness in defining templates
+
+    myDiagram = $(go.Diagram, "myDiagramDiv",  // create a Diagram for the DIV HTML element
+                  {
+                    initialContentAlignment: go.Spot.Center,  // center the content
+                    "undoManager.isEnabled": true  // enable undo & redo
+                  });
+	// セッションに定義が存在しない場合はセット
+					//したごころ　しつけ　いいぶん　情にうたれ　じんそく
+					//しあがり　しあげ
+					//うとうとねするがたがたふるえる
+					//気力ががっくりおちる
+					//くどくどくちをいう
+					//げらげらわらう
+					//てがざらざらしている
+					//あせがたらたらたれる
+					//へとへとつかれる
+					//合致　加味　きゃしゃ
+					searchResultColumns = user.getDocSearchResultTableDefinition(ItemCategory.get(categoryID),
+							connector);
+					if (searchResultColumns.getViewColumns() == null
+							|| searchResultColumns.getVi
+    // define a simple Node template
+    myDiagram.nodeTemplate =
+      $(go.Node, "Auto",  // the Shape will go around the TextBlock
+        $(go.Shape, "RoundedRectangle", { strokeWidth: 0},
+          // Shape.fill is bound to Node.data.color
+          new go.Binding("fill", "color")),
+        $(go.TextBlock,
+          { margin: 8 },  // some room around the text
+          // TextBlock.text is bound to Node.data.key
+          new go.Binding("text", "key"))
+      );
+	  ////うっとりうっかりうっすらうとうと　そよそよ
+				//むら　目つき　ゆさぶる　やたら
+				//ほとり まんじゅう 見なす　みれん
+				//無難
+				//ふくれる
+				//はんじょう　ひといき
+				//はしわたし
+				//ノイローゼ　はじらう　はじる
+				//ちょうほう　　でなおし　なんなり
+				Map<ItemCategory, DocSearchScreenDefinition> definiti
+	//なにげない｜さりげない｜なさげない｜えつげない
+    // but use the default Link template, by not setting Diagram.linkTemplate
+
+    // create the model data that will be represented by Nodes and Links
+    myDiagram.model = new go.GraphLinksModel(
+    [
+      { key: "Alpha", color: "lightblue" },
+      { key: "Beta", color: "orange" },
+      { key: "Gamma", color: "lightgreen" },
+      { key: "Delta", color: "pink" }
+    ],
+    [
+      { from: "Alpha", to: "Beta" },
+      { from: "Alpha", to: "Gamma" },
+      { from: "Beta", to: "Beta" },
+      { from: "Gamma", to: "Delta" },
+      { from: "Delta", to: "Alpha" }
+    ]);
+  }
+  KEIMSⅡ（2017/10/12）R2.3
+じみじみ　すっと　なにぶん　なにも　なんなりと　にやにや
+fadssadfpx
+せかせか　　ちらっと　時折突如　はきはき　ばったり
+■対応内容
+
+   ◆プロトタイプ第1リリース　
+　　　- けの検索は可能）
+　　　-　ねまわし　てまわし　きっかり　きっちり
+　　　※文書のモ化も完了しました。
+
+	
+■修正ファイルの説明（KEIMSⅡ）
+
+	/fxbom/common/js/ext-4.2.2/examples/ux/data/PagingMemoryProxy.js
+	/fxbom/information.jsp
+	/fxbom/search/doc/docSearchViewSetting.jsp
+	/fxbom/search/doc/docSearchWindowExtjs.jsp
+	/fxbom/search/searchformExt.jsp
+	/fxbom/search/searchResultFormExt.jsp
+	/fxbom/search/searchwindowExt.jsp
+	/fxbom/show_segment_list.jsp
+	/fxbom/show_segment_list_bunsho.jsp
+	/javasrc/cus/common/DocAddBascketAction.java
+	/javasrc/jp/co/fujixerox/fxbom/sql/TableMetaData.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/doc/DocDoSearchActionExtjs.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/doc/DocExpandGennumTree.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchColumnAttributeExt.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/doc/DocShowPropertyActionExtjs.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchHelper.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/DoSearchExtAction.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/SearchItemFormAction.java
+	/javasrc/jp/co/fujixerox/fxbom/struts/action/search/SearchResultStartExtAction.java
+	/WEB-INF/classes/cus/common/DocAddBascketAction.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/sql/TableMetaData.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocDoSearchActionExtjs.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocExpandGennumTree.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchColumnAttributeExt.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocShowPropertyActionExtjs.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchHelper$1.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchHelper$2.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchHelper$3.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/doc/DocSearchHelper.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/DoSearchExtAction.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/SearchItemFormAction.class
+	/WEB-INF/classes/jp/co/fujixerox/fxbom/struts/action/search/SearchResultStartExtAction.class
+	/WEB-INF/struts-config.xml
+	/WEB-INF/struts-config-doc.xml
+
+■リリース方法
+
+	①KEIMSⅡ_20171012のフォルダ以下で、既存TOMCATプロジェクトフォルダを上書きする。
+        ②TOMCATを再起動する
+
+</script>
+</head>
+<body onload="init()">
+<div id="sample">
+  <!-- The DIV for the Diagram needs an explicit size or else we won't see anything.
+       This also adds a border to help see the edges of the viewport. -->
+  <div id="myDiagramDiv" style="border: solid 1px black; width:400px; height:400px"></div>
+  <p>
+    This isn't a trulyあられ <i>mini富むmal</i> demonstration of <b>GoJS</b>,
+    because we do specify a custom Node template, but it's pretty simple.
+    The whole source for the sample is shown below if you click on the link.
+  </p>
+  <p>
+    This sample sets the <a>Diagram.nodeTemplate</a>, with a <a>Node</a> template that data binds both the text string and the shape's fill color.
+    For an overview of building your own templates and model data, see the <a href="../learn/index.html">Getting Started tutorial.</a>
+  </p>
+  <p>
+    The <a>Diagram.initialContentAlignment</a> setting causes the diagram's contents
+    to appear in the center of the diagram's viewport.
+  </p>
+  <p>
+    Using the mouse and common keyboard commands, you can pan, select, move, copy, delete, and undo/redo.
+    On touch devices, use your finger to act as the mouse, and hold your finger stationary to bring up a context menu.
+    The default context menu supports most of the standard commands that
+    are enabled at that time for the selected object.
+  </p>
+  <p>
+    For a more elaborate and capable sample, see the <a href="basic.html">Basic</a> sample.
+    For a sample that loads JSON data from the server,
+    see the <a href="minimalJSON.html">Minimal JSON</a> sample.
+    For a sample that loads XML data from the server,
+    see the <a href="minimalXML.html">Minimal XML</a> sample.
+  </p>
+  
+</div>
+</body>
+</html>
