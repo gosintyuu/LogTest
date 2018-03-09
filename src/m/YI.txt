@@ -6687,3 +6687,2538 @@ ichinose.takahiro@fujixerox.co.jp
 
 
 ","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3679) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合","ケイさん
+お疲れ様です。一瀬です。
+
+南油機さまからの下記の報告に関して、３件修正が必要になりそうです。
+後ほどRedmineの不具合管理に追加しておきます。
+
+Redmine起票前に対応できる場合はしていただいて構いません。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fx FUKAYA SHUJI
+> Sent: Wednesday, January 24, 2018 11:36 AM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3678) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ
+> 2017R2　要望および不具合
+> 
+> 一瀬さん、ケイさん
+> 
+> お疲れ様です。深谷です。
+> 
+> 2017R2検索画面について南油機より要望＆不具合の
+> 連絡がございました。
+> 
+> 指摘内容の資料は以下に記載しております。
+> \\143.94.208.74\非共有\10_KYB\631_901_受領資料(KYB)\20180124_検索
+> ExtJS_南油機検証結果
+> ・KEIMSⅡ2017R2_検証_20180123.xlsx
+> 
+> テストリリースのタイミングまでに修正をお願い致します。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx
+> FUKAYA SHUJI の代理で送信
+> 送信日時: 2018年1月24日 11:33
+> 宛先: seki-osa@kyb.co.jp
+> CC: ido-aya@kyb.co.jp; itou-yuka@kyb.co.jp; keims2-support@fujixerox.co.jp
+> 件名: (keims2-support 3677) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2
+> 要望および不具合
+> 
+> KYB株式会社
+> 關様
+> 
+> いつも大変お世話になっております。
+> 富士ゼロックスの深谷です。
+> 
+> エンハンスR2のテストにご協力頂きましてありがとうございます。
+> 下記に要望、不具合に対する対応方針を記載致します。
+> 
+> 【要望A】
+> 　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+> 　ご要望の2箇所に客先品番(図面)の属性を表示するように致します。
+> 
+> 【不具合A】
+> 　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+> 　ステータスが正しい状態でCSV出力されるように修正致します。
+> 
+> 【不具合B】
+> 　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+> 　検索結果でチェックを入れたデータが正しい状態で選択リストCSVに
+> 　出力されるように修正致します。
+> 
+> 【報告A】
+> 　ご確認頂きましてありがとうございます。
+> 
+> 以上、何卒よろしくお願い致します。
+> 
+> ________________________________________
+> 差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が
+> seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+> 送信日時: 2018年1月24日 11:22
+> 宛先: keims2-support@fujixerox.co.jp
+> CC: ido-aya@kyb.co.jp; itou-yuka@kyb.co.jp
+> 件名: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合
+> 
+> 
+> 富士ゼロックス株式会社
+> KEIMSⅡ担当者様
+> 
+> いつも大変お世話になっております。
+> 
+> 標記の件、エンハンスR2に関する要望と不具合を連絡致します。
+> 詳細は添付ファイルを参照ください。
+> 
+> 【要望A】
+> 　［客先品番（図面）］を検索結果表示エリアにも追加頂きたく。
+> 　［2017年度R2_検索画面刷新_要望事項一覧_v8.0.xlsx］－［KEIMSⅡ検索画面刷
+> 新_要望事項一覧］Sheetの
+> 　No.検索-20およびNo.検索-21の［対応方針／回答］欄にも記載がありますので、
+> 運用開始までに実装されるとの
+> 　認識で宜しいでしょうか？
+> 
+> 【不具合A】
+> 　［全件リスト出力］に関する不具合です。
+> 　ステータスが全て”正式”になる様です。
+> 
+> 【不具合B】
+> 　［選択リスト出力］に関する不具合です。
+> 　チェックBOXの動作がユーザの意図にそぐわないです。
+> 
+> 【報告A】
+> 　多品図の客先品番に関して、品番毎には設定できない旨確認しました。
+> 
+> 
+> 
+> 
+> 以上、よろしくお願い致します。
+> －－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+> ＫＹＢ（株）
+> ハイドロリックコンポーネンツ事業本部
+> 技術統轄部 岐阜南駐在
+> 關 理文 (Osabumi Seki)
+> E-mail Address:seki-osa@kyb.co.jp
+> TEL:0574-26-0656
+> FAX:0574-26-1491
+> －－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+> 
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx FUKAYA SHUJI;keims2-support@fujixerox.co.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858;keims2-support@fujixerox.co.jp","EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3690) [調査依頼]ExtJS検索レスポンス悪化の報告","ケイさん
+お疲れ様です。一瀬です。
+
+検索画面ExtJS化のPrototype-5を1/19にリリースしましたが、以前より
+パフォーマンスが悪化しているとの報告がありました。
+
+以下にお客様のメール本文のコピーを転載します。
+
++++++++++++++++++++++++++++++++++++
+また、検索のレスポンスが再び悪化しました。 
+同一条件で検索した場合、従来の検索画面では6秒で結果表示するところ、 
+プロトタイプ5では11秒となり、従来より時間が長くなっています。 
+原因の調査をお願いします。
++++++++++++++++++++++++++++++++++++
+
+従来画面よりレスポンスが悪い、との報告でした。
+そこで、以下の観点でパフォーマンス調査をしていただけないでしょうか？
+調査するアプリは、社内環境の
+http://143.94.208.145:8080/KEIMS2_2017R2/
+でお願いします。
+
+①上記社内環境で従来画面よりExtJS画面の方が遅いかどうか
+　色々なパターンの検索で実施してください。
+　以下に例を挙げます。
+　●検索条件
+　　- 全件検索
+　　- 品番検索（1品番、複数品番）
+　　- 品名検索
+　　- インデックスを持っていない属性の検索
+　　- 複数属性による検索
+　●検索結果
+　　- 最小結果表示
+　　- 最大結果表示
+
+②①の結果、ExtJS検索画面の方が遅い場合、どこに原因があるのか調査してください
+　Proto-4との違いとしてはフィルタリングが実装されていますが、それが原因？
+
+お忙しいところ申し訳ありませんが、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3694) Re: 不具合＃231修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+対応、ありがとうございました。
+
+> また、南油機のお客様にご指摘頂いたフィルター掛けた状態の選択リスト出力の件
+> も修正しまして、
+これは、フィルタリング中に全選択ボタンを押下した場合、表示されている品目のみが選択
+できるようにプログラム修正した、ということでしょうか？
+どのように修正したか、教えてください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: fxY728e
+> Sent: Wednesday, January 24, 2018 7:16 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: 不具合＃231修正しました
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合＃231を修正しました。修正したモジュールは以下に置きました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180124_2017-2.0_231
+> <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> /20180124_2017-2.0_231>
+> 
+> 
+> 
+> また、南油機のお客様にご指摘頂いたフィルター掛けた状態の選択リスト出力の件
+> も修正しまして、
+> 
+> モジュールは上記フォルダーに含まれますので、ご了承下さい。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3699) Re: 不具合＃231修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+了解致しました。
+ちなみに、パフォーマンスの悪化などはありませんか？
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: fxY728e
+> Sent: Thursday, January 25, 2018 9:27 AM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: RE: 不具合＃231修正しました
+> 
+> 一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> ＞これは、フィルタリング中に全選択ボタンを押下した場合、表示されている品目
+> のみが選択
+> ＞できるようにプログラム修正した、ということでしょうか？
+> 
+> その通りです。
+> 
+> 説明不足ですみませんでした。
+> 
+> 以上、宜しくお願い致します。
+> 
+> -----Original Message-----
+> From: fxY6873
+> Sent: Wednesday, January 24, 2018 7:25 PM
+> To: fxY728e <Kei.Dengyoku@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: RE: 不具合＃231修正しました
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> 対応、ありがとうございました。
+> 
+> > また、南油機のお客様にご指摘頂いたフィルター掛けた状態の選択リスト出力の
+> 件
+> > も修正しまして、
+> これは、フィルタリング中に全選択ボタンを押下した場合、表示されている品目の
+> みが選択
+> できるようにプログラム修正した、ということでしょうか？
+> どのように修正したか、教えてください。
+> 
+> 以上、よろしくお願い致します。
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+> > -----Original Message-----
+> > From: fxY728e
+> > Sent: Wednesday, January 24, 2018 7:16 PM
+> > To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> > <shuji.fukaya@fujixerox.co.jp>
+> > Cc: keims2-support@fujixerox.co.jp
+> > Subject: 不具合＃231修正しました
+> >
+> > 一瀬様、深谷様
+> >
+> >
+> >
+> > お疲れ様です。ケイです。
+> >
+> >
+> >
+> > 不具合＃231を修正しました。修正したモジュールは以下に置きました。
+> >
+> > \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \20180124_2017-2.0_231
+> > <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> > /20180124_2017-2.0_231>
+> >
+> >
+> >
+> > また、南油機のお客様にご指摘頂いたフィルター掛けた状態の選択リスト出力の
+> 件
+> > も修正しまして、
+> >
+> > モジュールは上記フォルダーに含まれますので、ご了承下さい。
+> >
+> >
+> >
+> > 以上、宜しくお願い致します。
+> >
+> >
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3708) Re: 不具合＃231再リーリス","ケイさん
+お疲れ様です。一瀬です。
+
+先ほど会話しましたが、メールにて共有させていただきます。
+
+#231の2回リリース分と、同時に修正したフィルタリング中の全選択不具合のプログラム修正ですが、
+まとめて1回で再リリースしてください。
+以下の2回のリリースは無しとさせていただきます。
+
+> ①   20180124_2017-2.0_231 
+> ②   20180125_2017-2.0_231
+
+また、フィルタリング中の全選択チェックボックスのチケットは#232です。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Thursday, January 25, 2018 11:31 AM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3703) 不具合＃231再リーリス
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 昨日修正いたしました不具合＃231については、
+> 
+> 正式の場合はOKですが、仕掛の場合はNGでしたため、再修正いたしました。
+> 
+> 修正したモジュールは以下に置きました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180125_2017-2.0_231
+> <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> /20180125_2017-2.0_231>
+> 
+> 
+> 
+> リリース手順としては以下①、②の順でKEIMS2モジュールを上書きするように行
+> って下さい。
+> 
+> ①   20180124_2017-2.0_231
+> 
+> ②   20180125_2017-2.0_231
+> 
+> 
+> 
+> 確認不足で大変失礼しました。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+> 
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Wednesday, January 24, 2018 7:16 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3693) 不具合＃231修正しました
+> 
+> 
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合＃231を修正しました。修正したモジュールは以下に置きました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180124_2017-2.0_231
+> <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> /20180124_2017-2.0_231>
+> 
+> 
+> 
+> また、南油機のお客様にご指摘頂いたフィルター掛けた状態の選択リスト出力の件
+> も修正しまして、
+> 
+> モジュールは上記フォルダーに含まれますので、ご了承下さい。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3725) YCC連絡先","KYBプロジェクトメンバー各位
+
+お疲れ様です。一瀬です。
+
+横浜コンピューティングセンター(YCC)の
+連絡先をご連絡いたします。
+
+■作業者：
+　百合草さん、一瀬
+■作業内容：
+　SAマルチページ対応等
+■連絡先：
+　（外線） 045-942-2893
+　（内線） 6314
+■作業時刻
+　　12:00～17:00
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3740) [検索ExtJS]パフォーマンス測定条件等のお知らせ","ケイさん
+お疲れ様です。一瀬です。
+
+先ほど直接会話をさせていただきました件です。
+
+工機センター中林様からパフォーマンスと画面表示に関する指摘を頂いております。
+３つありますが、次回ワーキング時までにパフォーマンスの測定と、技術的な対応の可否
+を回答しておきたいので、以下の調査をお願いします。
+
+●#245 検索結果の表示が従来画面より遅い
+FX社内環境化でのパフォーマンス比較をお願いします。
+条件は#245のコメントに記載しておきました。
+https://my.redmine.jp/kml/issues/245?issue_count=17&issue_position=1&next_issue_id=244#note-1
+以下の計測をお願いします。
+・サーバー側の処理時間
+・クライアント側での処理時間
+
+●#241 プロトタイプ５において、画面が正常に表示されない
+キャッシュのクリアが不十分である可能性がありますが、ソース側で対応できないか、
+調査をお願いします。
+・JSPファイルのヘッダーに再読込等に関する書込が必要かどうか
+・Reload時に強制的にすべて再読込ができるメソッドが存在しているかどうか
+・Tomcat等の設定で再読込が強制できないか
+・その他技術的な方法で解決が可能かどうか
+上記での対応ができない場合はキャッシュのどの場所を削除すればよいか、という話に
+なってしまいますが、現状工機センターのみで発生している現象なので、現時点では
+そこまで調査する必要はないかと考えています。
+まずは技術的な観点で調査をお願いします。
+
+●#240 お気に入り切替時のパフォーマンスが良くない
+工機センター中林様は「１秒以内」に切り替えてくれ、と言っていますが、これは無視
+するとして、少しでもお気に入り切り替えが早くならないか、といった観点で調査して
+頂きたいです。
+・画面のフレーム位置までお気に入りに保存している
+　Proto-5でこの画面フレーム位置の保存までしていますが、Proto-4と比較すると、
+　この描画があることでさらなる切り替えパフォーマンスの遅延があると考えています。
+　場合によってはフレーム位置は除外しても良いかもしれません
+・属性個数に比例するか？
+　例えば条件は３属性のみ、結果はデフォルト＋形式だけ、といった属性数が少ない場合
+　と、条件、結果ともに全属性の場合は表示パフォーマンスが全く異なると思います。
+　その表示パフォーマンスのグラフなどが作れるといいのかもしれません。
+また、この課題は上記２件の調査とExtJSに関するプログラム修正が完了してから対応して
+いただければ良いです。
+後日改めて細かな調査方法を相談させてください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3739) Re: Extjs検索画面用のラベルとメッセージ","ケイさん
+
+お疲れ様です。一瀬です。
+
+資料の提供ありがとうございました。
+こちらの資料を参考にLABEL_DEFINE、FX_MESSAGEの仕様書を
+更新しておきます。
+完成し次第連絡いたします。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: fxY728e
+> Sent: Monday, January 29, 2018 4:38 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: Extjs検索画面用のラベルとメッセージ
+> 
+> 一瀬様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> Extjs検索画面用のラベルとメッセージを纏めて添付にて送付致します。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3737) 社内仮想環境について","各位
+お疲れ様です。一瀬です。
+
+社内の仮想環境のサーバーがほとんど落ちており、KEIMSⅡ社内環境に
+アクセス出来ないのですが、なにか作業されている方いらっしゃい
+ますか？
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3742) Re: [検索ExtJS]パフォーマンス測定条件等のお知らせ","ケイさん
+お疲れ様です。一瀬です。
+
+パフォーマンス計測、ありがとうございました。
+やはりフィルタリング機能がネックになっていますね。
+
+お客様との次回ワーキングでどちらを取るか伺ってみます。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Tuesday, January 30, 2018 2:29 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3741) Re: [検索ExtJS]パフォーマンス測定条件等のお知
+> らせ
+> 
+> 一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> 検索パフォーマンスに関しまして、検証した結果を送付致します。
+> 
+> ご確認願います。
+> 
+> 以上、宜しくお願い致します。
+> 
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY6873
+> Sent: Tuesday, January 30, 2018 11:52 AM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3740) [検索ExtJS]パフォーマンス測定条件等のお知らせ
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> 先ほど直接会話をさせていただきました件です。
+> 
+> 工機センター中林様からパフォーマンスと画面表示に関する指摘を頂いております。
+> ３つありますが、次回ワーキング時までにパフォーマンスの測定と、技術的な対応
+> の可否
+> を回答しておきたいので、以下の調査をお願いします。
+> 
+> ●#245 検索結果の表示が従来画面より遅い
+> FX社内環境化でのパフォーマンス比較をお願いします。
+> 条件は#245のコメントに記載しておきました。
+> https://my.redmine.jp/kml/issues/245?issue_count=17&issue_position=1&next_iss
+> ue_id=244#note-1
+> 以下の計測をお願いします。
+> ・サーバー側の処理時間
+> ・クライアント側での処理時間
+> 
+> ●#241 プロトタイプ５において、画面が正常に表示されない
+> キャッシュのクリアが不十分である可能性がありますが、ソース側で対応できない
+> か、
+> 調査をお願いします。
+> ・JSPファイルのヘッダーに再読込等に関する書込が必要かどうか
+> ・Reload時に強制的にすべて再読込ができるメソッドが存在しているかどうか
+> ・Tomcat等の設定で再読込が強制できないか
+> ・その他技術的な方法で解決が可能かどうか
+> 上記での対応ができない場合はキャッシュのどの場所を削除すればよいか、という
+> 話に
+> なってしまいますが、現状工機センターのみで発生している現象なので、現時点で
+> は
+> そこまで調査する必要はないかと考えています。
+> まずは技術的な観点で調査をお願いします。
+> 
+> ●#240 お気に入り切替時のパフォーマンスが良くない
+> 工機センター中林様は「１秒以内」に切り替えてくれ、と言っていますが、これは
+> 無視
+> するとして、少しでもお気に入り切り替えが早くならないか、といった観点で調査
+> して
+> 頂きたいです。
+> ・画面のフレーム位置までお気に入りに保存している
+> 　Proto-5でこの画面フレーム位置の保存までしていますが、Proto-4と比較すると、
+> 　この描画があることでさらなる切り替えパフォーマンスの遅延があると考えてい
+> ます。
+> 　場合によってはフレーム位置は除外しても良いかもしれません
+> ・属性個数に比例するか？
+> 　例えば条件は３属性のみ、結果はデフォルト＋形式だけ、といった属性数が少な
+> い場合
+> 　と、条件、結果ともに全属性の場合は表示パフォーマンスが全く異なると思いま
+> す。
+> 　その表示パフォーマンスのグラフなどが作れるといいのかもしれません。
+> また、この課題は上記２件の調査とExtJSに関するプログラム修正が完了してから
+> 対応して
+> いただければ良いです。
+> 後日改めて細かな調査方法を相談させてください。
+> 
+> 以上、よろしくお願い致します。
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3774) Re: 検索画面お気に入りの件","ケイさん
+お疲れ様です。一瀬です。
+
+早坂さんより、下記の指摘が来ています。
+動作確認をしていただき、不具合の場合は修正願います。
+
+https://my.redmine.jp/kml/issues/246
+
+不具合ではない場合、対応手順を教えてください。
+　⇒お気に入り全削除後に再度実施する、等
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: fx FUKAYA SHUJI
+> Sent: Monday, February 05, 2018 6:19 PM
+> To: fx HAYASAKA YUKARI <Yukari.Hayasaka@fujixerox.co.jp>; fxY6873
+> <ichinose.takahiro@fujixerox.co.jp>
+> Subject: RE: 検索画面お気に入りの件
+> 
+> 早坂さん
+> 
+> お疲れ様です。深谷です。
+> 
+> 確認の件ですが、不具合と思われます。
+> 検索対象（図面、部品表、その他、KES）の
+> チェックボックスON、OFFについても
+> お気に入りの対象にするべきかと思われます。
+> 
+> 明日一瀬さんが復帰予定ですので、
+> 改めて明日確認するように致します。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: fx HAYASAKA YUKARI
+> 送信日時: 2018年2月5日 17:38
+> 宛先: fx FUKAYA SHUJI; fxY6873
+> 件名: 検索画面お気に入りの件
+> 
+> 
+> お疲れさまです。アシスタントの早坂です。
+> 
+> 新しい検索画面のお気に入りについてご確認いただきたい件があります。
+> 
+> 検索画面を初期化して、各種設定後、お気に入りに登録し、登録したものを実行す
+> ると
+> 検索対象（図面、部品表、その他、KES）が保存されませんでした。
+> 
+> これは不具合でしょうか？
+> 操作内容を添付させていただきます。
+> 
+> 以上、よろしくお願いいたします。
+> 
+> 0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0
+> 富士ゼロックス株式会社
+> インダストリービジネスソリューション・サービス事業本部
+> 製造・流通ソリューション・サービス統括
+> ソリューション・サービス第二技術部　技術1G
+> 早坂　由香里
+> TEL：03-5717-1363　内線：7-5-60826
+> E-mail：Yukari.Hayasaka@fujixerox.co.jp
+> 0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3777) Re: 検索画面お気に入りの件","ケイさん
+お疲れ様です。一瀬です。
+
+不具合であること、了解しました。
+他の修正と同時にリリースしていただいて構いませんので、
+修正作業が終わりましたら「リリース待ち」ステータスにして
+ください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Tuesday, February 06, 2018 10:24 AM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3776) Re: 検索画面お気に入りの件
+> 
+> 一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> ご指摘通り、不具合でした。
+> 
+> 対応させて頂きます。
+> 
+> すみませんが宜しくお願い致します。
+> 
+> 以上、宜しくお願い致します。
+> 
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY6873
+> Sent: Tuesday, February 06, 2018 9:54 AM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3774) Re: 検索画面お気に入りの件
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> 早坂さんより、下記の指摘が来ています。
+> 動作確認をしていただき、不具合の場合は修正願います。
+> 
+> https://my.redmine.jp/kml/issues/246
+> 
+> 不具合ではない場合、対応手順を教えてください。
+> 　⇒お気に入り全削除後に再度実施する、等
+> 
+> 以上、よろしくお願い致します。
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+> > -----Original Message-----
+> > From: fx FUKAYA SHUJI
+> > Sent: Monday, February 05, 2018 6:19 PM
+> > To: fx HAYASAKA YUKARI <Yukari.Hayasaka@fujixerox.co.jp>; fxY6873
+> > <ichinose.takahiro@fujixerox.co.jp>
+> > Subject: RE: 検索画面お気に入りの件
+> >
+> > 早坂さん
+> >
+> > お疲れ様です。深谷です。
+> >
+> > 確認の件ですが、不具合と思われます。
+> > 検索対象（図面、部品表、その他、KES）の
+> > チェックボックスON、OFFについても
+> > お気に入りの対象にするべきかと思われます。
+> >
+> > 明日一瀬さんが復帰予定ですので、
+> > 改めて明日確認するように致します。
+> >
+> > 以上、何卒よろしくお願い致します。
+> > ________________________________________
+> > 差出人: fx HAYASAKA YUKARI
+> > 送信日時: 2018年2月5日 17:38
+> > 宛先: fx FUKAYA SHUJI; fxY6873
+> > 件名: 検索画面お気に入りの件
+> >
+> >
+> > お疲れさまです。アシスタントの早坂です。
+> >
+> > 新しい検索画面のお気に入りについてご確認いただきたい件があります。
+> >
+> > 検索画面を初期化して、各種設定後、お気に入りに登録し、登録したものを実行
+> す
+> > ると
+> > 検索対象（図面、部品表、その他、KES）が保存されませんでした。
+> >
+> > これは不具合でしょうか？
+> > 操作内容を添付させていただきます。
+> >
+> > 以上、よろしくお願いいたします。
+> >
+> > 0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0
+> > 富士ゼロックス株式会社
+> > インダストリービジネスソリューション・サービス事業本部
+> > 製造・流通ソリューション・サービス統括
+> > ソリューション・サービス第二技術部　技術1G
+> > 早坂　由香里
+> > TEL：03-5717-1363　内線：7-5-60826
+> > E-mail：Yukari.Hayasaka@fujixerox.co.jp
+> > 0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0∞∞0
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3778) [KMS個別]テストで発見した不具合の修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+本日実施したテストの中で新たに2件不具合が見つかりましたので、
+対応をお願いします。
+
+Redmine の #248, #249 で起票しました。
+
+可能であれば#247と同時にリリースしていただけると助かります。
+ただし、#248に関しては時間が必要な場合は声をかけてください。
+
+※#249はすぐに修正できる不具合なので、#247と同時リリースは
+　可能であると考えております。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3782) Re: KYB：R2テスト_No.14完了","百合草さん
+お疲れ様です。一瀬です。
+
+> ・機能仕様書　21.データコンバート連携
+> 　P.172　表題欄の担当者の備考が「加筆すること」になっていたので要修正でし
+> ょうか？
+この章は機能概要でかつ、コンバートサーバーの処理に影響がない場所なので後回し
+にしていたら修正することをすっかり忘れていました。。。
+指摘ありがとうございます。
+
+後ほど修正しておきます。
+
+以上、よろしくお願い致します。
+
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fx YURIKUSA YOSUKE
+> Sent: Wednesday, February 07, 2018 9:27 AM
+> To: fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>;
+> keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3780) Re: KYB：R2テスト_No.14完了
+> 
+> 深谷さん
+> 
+> お疲れ様です、百合草です。
+> ご対応有難うございました。
+> 
+> ＞一瀬さん
+> テスト時に気づいた点をご連絡します。
+> ・機能仕様書　21.データコンバート連携
+> 　P.172　表題欄の担当者の備考が「加筆すること」になっていたので要修正でし
+> ょうか？
+> 
+> 以上宜しくお願い致します。
+> 
+> **********************************
+>  富士ゼロックス株式会社
+>  インダストリービジネスソリューション・サービス事業本部
+>  製造・流通ソリューション・サービス統括
+>  ソリューション・サービス第二技術部
+>  百合草 陽介
+>  TEL  03-5717-1363
+>  Fax  03-5717-1368
+>  E-mail  yosuke.yurikusa@fujixerox.co.jp
+> **********************************
+> 
+> ________________________________________
+> 差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx
+> FUKAYA SHUJI の代理で送信
+> 送信日時: 2018年2月6日 21:09:32
+> 宛先: keims2-support@fujixerox.co.jp
+> 件名: (keims2-support 3779) KYB：R2テスト_No.14完了
+> 
+> 百合草さん、一瀬さん、早坂さん
+> 
+> お疲れ様です。深谷です。
+> 
+> R2テストについて、深谷の方で引き取った
+> No.14_図面訂正時の押印サイン処理の改善
+> のテストが終了しました。
+> 
+> \\143.94.208.74\非共有\10_KYB\671_013_テスト\02_テスト結果
+> ・【完了】テスト結果_2017KMS個別EH_No.14_図面訂正時の押印サイン処理の改
+> 善.xlsm
+> 
+> 以上です。
+> よろしくお願い致します。
+> 
+> =========================================================
+>  富士ゼロックス株式会社
+> 　インダストリービジネスソリューション・サービス事業本部
+> 　製造・流通ソリューション・サービス統括
+> 　ソリューション・サービス第二技術部
+> 
+>  深谷 周史（Fukaya Shuji）
+> 
+>  E-mail ：shuji.fukaya@fujixerox.co.jp
+>  外　線 ：03-5717-1363
+>  ＦＡＸ ：03-5717-1368
+>  内　線 ：7-5-28858
+>  Address：〒158-0097
+>  　　　　 東京都世田谷区用賀4-10-1
+>  　　　　 世田谷ビジネススクエア 7F
+> =========================================================
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE;fx FUKAYA SHUJI;keims2-support@fujixerox.co.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858;keims2-support@fujixerox.co.jp","EX;EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3783) Penguinサーバーの機能仕様書が編集不可","各位
+
+お疲れ様です。一瀬です。
+
+Penguinサーバーに格納されている、以下の機能仕様書が編集できずに
+困っています。
+
+\\143.94.208.74\非共有\10_KYB\100_10_機能仕様書\21_機能仕様書_v21.0(2017R1)
+　・17_1_管理者機能★.docx
+
+どなたか開きっぱなしの方、いらっしゃいましたら閉じてくださると助かります。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3792) [2017R2]新検索画面の不具合修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+先ほど会話しました、新検索画面のボタン動作不具合をRedmineに起票
+しました。#252です。
+https://my.redmine.jp/kml/issues/252
+
+私が確認したのは文書検索画面の「⊿UP訂正」ですが、他のボタンも動作
+確認していただき、同様の不具合がある場合は合わせて修正するよう、お願い
+します。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3793) [2017R2]工機センターのメニュー表示不具合対応依頼","ケイさん
+お疲れ様です。一瀬です。
+
+工機センターのポータルメニュー表示に関する不具合が見つかりましたので、
+対応をお願いします。
+Remine #253で起票しました。
+
+https://my.redmine.jp/kml/issues/253
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3795) [2017R2]不具合修正依頼(#254)","ケイさん
+お疲れ様です。一瀬です。
+
+新検索画面で新たな不具合が見つかりました。
+検索条件の「列数変更」を実行すると入力していたヒントメニュー
+属性のキーワードがクリアされる、といった不具合が見つかりました。
+対応をお願いします。
+Redmine #254です。
+
+https://my.redmine.jp/kml/issues/254
+
+合わせて以下の調査もお願いします。
+・他のヒントメニュー属性もクリアされるかどうか
+　再現テストでは表面処理を利用しています。
+　これはヒントメニューからのみ条件入力が可能な属性です。
+　品名など、ヒントメニューでもテキスト入力でもどちらでも条件入力
+　が可能な属性ではクリアされるかどうか、調査してください。
+
+・形式の属性はクリアされないか
+　他の入力形式を持つ属性でも同様の現象が発生しないか調査して
+　ください。
+
+上記２点共にエビデンスに残すよう、お願いします。
+
+
+●●単体テストをお願いします●●
+今回の開発手法は今までにないやり方だったため、KMLさんにはご迷惑
+をおかけしております。
+その為、ある程度の動作不具合が発生することは想定しているのですが、
+今回のような単体テストレベルの不具合が少々多いのが気になります。
+そこで、時間があるときは細かな動作レベルのテストをしていただけ
+ないでしょうか？
+このレベルのテストはFX側で実施出来ない場合があります。
+今回の不具合や、#252などは本来開発者による単体テストでのみ
+見つけることが出来る不具合です。
+
+本当に時間があるときで構わないので、よろしくお願い致します。
+
+また、単体テストで見つかった不具合は必ずRedmineに起動して修正して
+ください。よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3796) [2017R2]FX受入検査でNGとなりました(#251)","ケイさん
+お疲れ様です。一瀬です。
+
+Redmine #251
+https://my.redmine.jp/kml/issues/251
+
+こちらの効果確認したところ、NGとなりましたのでお知らせします。
+お気に入り呼出し時に検索キーワードが空で呼び出される不具合ですが、
+先ほど起票した #254 と同様、ヒントメニュー属性値はクリアされている
+状態のままです。
+
+ステータスを「状況確認・原因調査中」としておきましたので、再修正を
+お願いします。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3798) [2017R2]訂正欄コピーエンハンスの仕様変更に伴うプログラム修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+先ほど直接話をさせていただきましたが、KMS個別No15エンハンスの
+訂正欄を他品目からコピーする項目について、仕様バグがありました。
+そこで、機能仕様書を修正したので、内容をご確認いただきプログラム
+修正をお願いします。
+仕様について不明点などありましたらご指摘ください。
+
+Redmine #258 で起票しました。
+https://my.redmine.jp/kml/issues/258
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"Redmineの起票について","To:ケイさん
+Cc:呉さん
+お疲れ様です。一瀬です。
+
+検索画面の単体テスト、ありがとうございます。
+Redmineにいくつかあらたなチケットが起票されているので、
+順調にテストが進んでいるかと思います。
+
+そこで、Redmineチケットの起票に関してお願いがあります。
+をもう少し多く
+していただけないでしょうか。
+
+不具合の内容説明が不足しているチケットがたまにあり、
+チケットの記載内容だけではわれわれが再現できない場合が
+あります。
+
+●チケットのタイトル
+現状のままで良いと思います。
+タイトルだけでは説明不足の場合がほとんどだと思いますが、
+「説明」で補足してください。
+
+●チケットの「説明」
+必ず入力してください。不具合の内容や再現手順などを記載し
+どの場所が不具合なのか（場合によっては課題なのか）を明記
+するようにお願いします。
+ここの記載内容と、添付ファイルで他人が不具合を再現できる
+ようにしてください。
+
+●チケットの「修正内容」
+概ね現状のままで良いと思います。
+「説明」欄に修正内容を記載してもOKですが、その場合でもこの
+項目に同じ文章を記載するようにしてください。
+
+●添付ファイルを活用してください。
+日本語の説明が難しいときや画面キャプチャで説明したほうが早い
+場合があると思います。
+そのときは添付ファイルを活用してください。
+単体テストを実施しているときにキャプチャを保存しているかと
+思いますが、それにいくつかの説明吹き出しをつけるだけでOK
+です。
+
+Redmineな何年後かに別の新しい人が検索して、過去の情報を活用
+できることも目的としています。
+「言わなくてもわかる」ような説明文にする位でちょうど良いと
+思うので、Redmine起票には時間がかかると思いますが、運用保守
+の観点でも非常に重要なので、ご協力をお願いします。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+","fxY6873","/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5A8F722F5348400EA4BA09C3CDF89582-FXY6873","EX","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","fxY72cc","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e915092afae54014819125546da1c2c5-fxY72cc","EX",,,,,,"標準","標準"
+"RE: Redmineの起票について","ケイさん
+お疲れ様です。
+
+Remineへの起票は面倒で時間のかかる作業になってしまい、
+申し訳なく思いますが、よろしくお願いします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+________________________________________
+差出人: fxY728e
+送信日時: 2018年2月9日 10:18:00
+宛先: fxY6873
+CC: fxY72cc
+件名: RE: Redmineの起票について
+
+一瀬様
+お疲れ様です。ケイです。
+
+承知致しました。
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: fxY6873
+Sent: Friday, February 09, 2018 10:12 AM
+To: fxY728e <Kei.Dengyoku@fujixerox.co.jp>
+Cc: fxY72cc <go.shinchu@fujixerox.co.jp>
+Subject: Redmineの起票について
+
+To:ケイさん
+Cc:呉さん
+お疲れ様です。一瀬です。
+
+検索画面の単体テスト、ありがとうございます。
+Redmineにいくつかあらたなチケットが起票されているので、
+順調にテストが進んでいるかと思います。
+
+そこで、Redmineチケットの起票に関してお願いがあります。
+をもう少し多く
+していただけないでしょうか。
+
+不具合の内容説明が不足しているチケットがたまにあり、
+チケットの記載内容だけではわれわれが再現できない場合が
+あります。
+
+●チケットのタイトル
+現状のままで良いと思います。
+タイトルだけでは説明不足の場合がほとんどだと思いますが、
+「説明」で補足してください。
+
+●チケットの「説明」
+必ず入力してください。不具合の内容や再現手順などを記載し
+どの場所が不具合なのか（場合によっては課題なのか）を明記
+するようにお願いします。
+ここの記載内容と、添付ファイルで他人が不具合を再現できる
+ようにしてください。
+
+●チケットの「修正内容」
+概ね現状のままで良いと思います。
+「説明」欄に修正内容を記載してもOKですが、その場合でもこの
+項目に同じ文章を記載するようにしてください。
+
+●添付ファイルを活用してください。
+日本語の説明が難しいときや画面キャプチャで説明したほうが早い
+場合があると思います。
+そのときは添付ファイルを活用してください。
+単体テストを実施しているときにキャプチャを保存しているかと
+思いますが、それにいくつかの説明吹き出しをつけるだけでOK
+です。
+
+Redmineな何年後かに別の新しい人が検索して、過去の情報を活用
+できることも目的としています。
+「言わなくてもわかる」ような説明文にする位でちょうど良いと
+思うので、Redmine起票には時間がかかると思いますが、運用保守
+の観点でも非常に重要なので、ご協力をお願いします。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+","fxY6873","/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5A8F722F5348400EA4BA09C3CDF89582-FXY6873","EX","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","fxY72cc","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e915092afae54014819125546da1c2c5-fxY72cc","EX",,,,,,"標準","標準"
+"(keims2-support 3810) RE: KEIMSⅡ：検索画面検討WKG#6の指摘事項について","深谷さん
+お疲れ様です。一瀬です。
+
+お客様指摘事項の2件のうち、「フィルタリング機能」をなくす
+という修正はすでに修正済みとなります。
+先日リリースしていただいた納品時にはすでにOFFとなっている
+ため、「サムネイル一覧のズームバー対応」のみの対応をして
+いただくだけでOKです。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 17:08:11
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3808) KEIMSⅡ：検索画面検討WKG#6の指摘事項について
+
+KMLケイさん、呉さん
+
+お疲れ様です。深谷です。
+
+本日の検索画面検討WKG#6であがった
+追加の指摘項目をお伝え致します。
+
+---------
+・フィルタリング機能はなくす。
+　（検索パフォーマンス優先とする。）
+
+・サムネイル一覧のズームバーについて
+　ExcelやPowerPointの右下にあるズームバーのようなイメージで
+　数値入力でも拡大縮小ができるようにしたい。
+　→技術的に可能であれば対応すると回答してますので、
+　　優先度""低""で調査して下さい。
+---------
+
+のちほどRedmineにも記載しておきます。
+
+以上です。
+よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx FUKAYA SHUJI;keims2-support@fujixerox.co.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858;keims2-support@fujixerox.co.jp","EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3812) Re: 不具合修正しましたNO: 248,251,254-257,259-262","ケイさん、呉さん
+お疲れ様です。一瀬です。
+
+お忙しい中、単体テストとプログラム修正のリリース、
+ありがとうございました。
+引き続き、残件の対応と可能な限りの単体テスト作業を
+よろしくお願いします。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月9日 17:18:41
+宛先: fxY6873; fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3809) 不具合修正しましたNO: 248,251,254-257,259-262
+
+一瀬様、深谷様
+
+
+
+お疲れ様です。ケイです。
+
+
+
+不具合NO: 248,251,254-257,259-262
+
+を修正しました。修正したモジュールは以下に格納いたしました。
+
+\\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180209_2017-2.0_248,251,254-257,259-262
+
+
+
+NO.248に関しまして、FX_SYSTEM_PARAMETERに図面用の押印位置のパラメターを登録する必要があります、
+
+SQL中身の登録値を修正してから登録して下さい。詳細はリリース説明をご参照ください。
+
+
+
+ご迷惑掛けまして申し訳御座いませんでした。
+
+
+
+ご確認の程よろしくお願いします。
+
+
+
+以上、宜しくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3817) [2017R2]FX受入検査でNGとなりました(#257)","ケイさん
+お疲れ様です。一瀬です。
+
+以下の効果確認したところ、NGとなりましたので報告させていただきます。
+
+Redmine #257
+https://my.redmine.jp/kml/issues/257
+
+岐阜SAの検索(仕掛)メニューは図面検索のみであるので「試作明細書／
+組立仕様書」のメニューは不要なのですが、元々「通常検索」メニューから
+図面検索画面を起動していたので、サブメニュー「図面」は不要です。
+※詳細はRedmine #257 のコメントを参照してください。
+
+リリースは #258 の修正と同時にリリースしていただけると助かります。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3820) Re: [2017R2]FX受入検査でNGとなりました(#257)","ケイさん
+お疲れ様です。一瀬です。
+
+素早い対応、ありがとうございました。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: fxY728e
+> Sent: Tuesday, February 13, 2018 4:16 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: RE: [2017R2]FX受入検査でNGとなりました(#257)
+> 
+> 一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> お疲れ様です。ケイです。
+> #257の修正モジュールは＃258のリリースフォルダーに入れました。
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \20180213_2017-2.0_257,258
+> 
+> ご確認願います。
+> 
+> 以上、宜しくお願い致します。
+> 
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY6873
+> Sent: Tuesday, February 13, 2018 3:52 PM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3817) [2017R2]FX受入検査でNGとなりました(#257)
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> 以下の効果確認したところ、NGとなりましたので報告させていただきます。
+> 
+> Redmine #257
+> https://my.redmine.jp/kml/issues/257
+> 
+> 岐阜SAの検索(仕掛)メニューは図面検索のみであるので「試作明細書／
+> 組立仕様書」のメニューは不要なのですが、元々「通常検索」メニューから
+> 図面検索画面を起動していたので、サブメニュー「図面」は不要です。
+> ※詳細はRedmine #257 のコメントを参照してください。
+> 
+> リリースは #258 の修正と同時にリリースしていただけると助かります。
+> 
+> 以上、よろしくお願い致します。
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3821) [2017R2]FX受入検査でNGとなりました(#259)","ケイさん
+お疲れ様です。一瀬です。
+
+以下の効果確認したところ、NGとなりましたので報告させていただきます。
+
+Redmine #259
+https://my.redmine.jp/kml/issues/259
+
+①数値属性の検索条件にエラー条件となる""ee""を入力時、「検索」がDisable化
+②クリアボタン押下で""ee""の属性値がクリア、同時に「検索」がEnable化
+③再度、同じ検索条件に""ee""を入力すると、「検索」がEnableのまま
+　⇒Disable化されない
+
+※修正後、KMLさんリリースはせずに「リリース待ち」の状態にしておいてください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3822) [2017R2]#263の確定した仕様をコメントに記載しました","ケイさん
+お疲れ様です。一瀬です。
+
+先ほどの会話で決定した、Redmine #263の仕様をコメントに記載しました。
+https://my.redmine.jp/kml/issues/263#note-1
+
+不足分などありましたら、修正するので連絡ください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3823) [2017R2]#258再修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+先ほど口頭でお伝えしたとおり、仕様書のUPミスで訂正欄流用の修正が
+不足しておりました。
+大変申し訳ありませんが、不足分の修正をお願いします。
+詳細はRedmineの以下にコメントしておきました。
+
+https://my.redmine.jp/kml/issues/258#note-5
+
+この修正が完了しましたら、リリースしていただきますよう、お願い
+致します。
+
+以上、よろしくお願い致します。
+
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3826) Re: 不具合NO.259,263修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+リリースありがとうございました。
+社内環境に適用し、効果を確認します。
+
+Redmine #258の動作確認でOKとなった場合、修正が必要なRedmineチケットが
+0件となりますので、このモジュールで金曜日のテストリリース設置作業を実施する
+予定です。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Wednesday, February 14, 2018 4:51 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3825) 不具合NO.259,263修正しました
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合NO.259,263を修正しました。
+> 
+> 
+> 
+> 修正したモジュールは以下に格納致しました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \ 20180214_2017-2.0_259,263 <file://143.94.208.74/非共有
+> /10_KYB/611_115_KML納品/%2020180214_2017-2.0_259,263>
+> 
+> 
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3828) Re: 不具合NO.265修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+プログラムの修正、ありがとうございました。
+明日のテストリリースに含めるように作業しておきます。
+
+●KMLさんリリースに関してお願い
+先ほど、直接会話してお願いしました件です。
+KMLさんで見つけた不具合に関しては、ケイさんがRedmine起票するように
+お願いしています。
+ただし、その不具合をリリースまで一気にされてしまうと、こちらのリリース管理
+に影響が出てしまうので、プログラム修正が完了したら一度私か深谷さんに声を
+かけていただくか、メールで確認してください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Thursday, February 15, 2018 3:15 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3827) 不具合NO.265修正しました
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 
+> 
+> 不具合NO.265を修正しました。
+> 
+> 
+> 
+> 修正したモジュールは以下に格納致しました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180215_2017-2.0_265
+> <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> /20180215_2017-2.0_265>
+> 
+> 
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3829) [2017R2]不具合修正依頼(#266)","ケイさん
+お疲れ様です。一瀬です。
+
+プロジェクト変更(文書)画面でOracleエラーが発生する不具合が見つかり
+ました。
+一括変更で（多分）301件以上のCSVファイルを指定して実行すると、
+　「ORA-01000: 最大オープン・カーソル数を超えました。」
+のSQLExceptionが発生して処理が停止してしまう、といった内容です。
+
+Redmine #266で起票しました。
+https://my.redmine.jp/kml/issues/266
+
+●プログラム修正の着手とリリースについて
+チケットの担当者を「KML」さんにしているので、プログラム修正をして
+いただいて構いませんが、明日テストリリースがあるので、KMLさんリリース
+は「2018/02/19」以降でお願いします。
+※プログラム修正が完了したら声をかけて頂けると助かります。
+
+●追加作業依頼
+チケットにも記載していますが、図面／部品表のプロジェクト一括変更機能も
+同様の不具合が出る可能性があります。
+影響調査をお願いします。
+
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fxY6873
+Sent: Thursday, February 08, 2018 3:46 PM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3795) [2017R2]不具合修正依頼(#254)
+
+ケイさん
+お疲れ様です。一瀬です。
+
+新検索画面で新たな不具合が見つかりました。
+検索条件の「列数変更」を実行すると入力していたヒントメニュー
+属性のキーワードがクリアされる、といった不具合が見つかりました。
+対応をお願いします。
+Redmine #254です。
+
+https://my.redmine.jp/kml/issues/254
+
+合わせて以下の調査もお願いします。
+・他のヒントメニュー属性もクリアされるかどうか
+　再現テストでは表面処理を利用しています。
+　これはヒントメニューからのみ条件入力が可能な属性です。
+　品名など、ヒントメニューでもテキスト入力でもどちらでも条件入力
+　が可能な属性ではクリアされるかどうか、調査してください。
+
+・形式の属性はクリアされないか
+　他の入力形式を持つ属性でも同様の現象が発生しないか調査して
+　ください。
+
+上記２点共にエビデンスに残すよう、お願いします。
+
+
+●●単体テストをお願いします●●
+今回の開発手法は今までにないやり方だったため、KMLさんにはご迷惑
+をおかけしております。
+その為、ある程度の動作不具合が発生することは想定しているのですが、
+今回のような単体テストレベルの不具合が少々多いのが気になります。
+そこで、時間があるときは細かな動作レベルのテストをしていただけ
+ないでしょうか？
+このレベルのテストはFX側で実施出来ない場合があります。
+今回の不具合や、#252などは本来開発者による単体テストでのみ
+見つけることが出来る不具合です。
+
+本当に時間があるときで構わないので、よろしくお願い致します。
+
+また、単体テストで見つかった不具合は必ずRedmineに起動して修正して
+ください。よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3832) Re: (keims2-project 23531) Re: ミケンズ部品の構成追加依頼","深谷さん
+お疲れ様です。一瀬です。
+
+SQL作成ありがとうございました。
+明日のYCC作業で実施します。
+
+完了報告メールは私から送付しておきます。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fx FUKAYA SHUJI
+> Sent: Thursday, February 15, 2018 6:14 PM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3831) Re: (keims2-project 23531) Re: ミケンズ部品の構
+> 成追加依頼
+> 
+> 一瀬さん、ケイさん
+> 
+> お疲れ様です。深谷です。
+> 
+> KMS木辺様問合せ対応用のSQLを用意しました。
+> 下記フォルダに格納しております。
+> \\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細
+> \No.889\SQL
+> 
+> 02,03のSQLについては、オブジェクトIDの値を手動設定してから
+> 実行するようにして下さい。
+> 
+> すみませんが明日の作業よろしくお願い致します。
+> ________________________________________
+> 差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が
+> kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp> の代理で送信
+> 送信日時: 2018年2月14日 13:00
+> 宛先: fx FUKAYA SHUJI
+> CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp;
+> keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp;
+> takao-man@kyb.co.jp
+> 件名: (keims2-project 23531) Re: ミケンズ部品の構成追加依頼
+> 
+> 
+> 富士ゼロックス 深谷様
+> 
+> いつもお世話になっております。
+> ＫＹＢ技術統轄部　木辺です。
+> 
+> ご無理を言って申し訳ありません。
+> よろしくお願い致します。
+> 
+> 
+> 
+> fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+> 
+> 2018/02/14 12:57
+> 宛先
+> ""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp> cc ""inaguma-hid@kyb.co.jp""
+> <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>,
+> ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>,
+> ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp""
+> <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+> 件名
+> RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> 
+> 
+> 
+> KYB株式会社
+> 木辺様
+> 
+> いつも大変お世話になっております。
+> 富士ゼロックスの深谷です。
+> 
+> 承知致しました。
+> それでは弊社作業にて構成追加を実施するように致します。
+> 
+> 作業完了しましたら木辺様にご連絡させて頂きます。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp>
+> 送信日時: 2018年2月14日 9:21:31
+> 宛先: fx FUKAYA SHUJI
+> CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp;
+> keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp;
+> takao-man@kyb.co.jp
+> 件名: RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> 富士ゼロックス 深谷様
+> 
+> いつもお世話になっております。
+> ＫＹＢ技術統轄部　木辺です。
+> 
+> ご連絡ありがとうございます。
+> 
+> 弊社側で⊿Up無し設計変更を実施しますと、
+> すべての箇所に⊿が付いてしまい、それは避けたいので、
+> データセンターにてご対応していただけませんでしょうか。
+> 
+> お忙しいところ申し訳ありませんが、よろしくお願い致します。
+> 
+> 
+> 
+> fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+> 
+> 2018/02/13 15:47
+> 宛先
+> ""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp> cc ""inaguma-hid@kyb.co.jp""
+> <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>,
+> ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>,
+> ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp""
+> <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+> 件名
+> RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> 
+> 
+> 
+> KYB株式会社
+> 木辺様
+> 
+> いつも大変お世話になっております。
+> 富士ゼロックスの深谷です。
+> 
+> 今朝ご連絡頂きました部品構成追加の件、
+> 該当のデータを確認したところ、追加対象の
+> 13301-60134Cが新規作成中ステータスで
+> 仕掛エリアに存在しておりました。
+> 
+> 2/16(金)に弊社側で追加するとご連絡しましたが、
+> ⊿Up無し設計変更を実施することで
+> 13301-60134Cを部品表構成に追加することが可能です。
+> 
+> 操作手順を纏めましたのでお手数ですがご対応お願い致します。
+> ※解凍時のパスワードは「kmsfx」になります。
+> 
+> 操作に関してご不明点等ございましたらご連絡下さい。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp>
+> 送信日時: 2018年2月13日 13:08
+> 宛先: fx FUKAYA SHUJI
+> CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp;
+> keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp;
+> takao-man@kyb.co.jp
+> 件名: RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> 富士ゼロックス 深谷様
+> 
+> いつもお世話になっております。
+> ＫＹＢ技術統轄部　木辺です。
+> 
+> ご連絡ありがとうございます。
+> 
+> お忙しいところ申し訳ありませんが、よろしくお願い致します。
+> 
+> 
+> 
+> fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+> 
+> 2018/02/13 10:43
+> 宛先
+> ""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp> cc ""inaguma-hid@kyb.co.jp""
+> <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>,
+> ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>,
+> ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp""
+> <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+> 件名
+> RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> 
+> 
+> 
+> KYB株式会社
+> 木辺様
+> 
+> いつも大変お世話になっております。
+> 富士ゼロックスの深谷です。
+> 
+> ご連絡頂きました件、今週2/16(金)にデータセンターへ入館する
+> 予定がございますので、合わせて対応するように致します。
+> 
+> 作業が終わりましたら木辺様へご連絡致します。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が
+> kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp> の代理で送信
+> 送信日時: 2018年2月13日 10:26
+> 宛先: fx FUKAYA SHUJI
+> CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp;
+> keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp;
+> takao-man@kyb.co.jp
+> 件名: (keims2-project 23489) ミケンズ部品の構成追加依頼
+> 
+> 
+> いつもお世話になっております。
+> ＫＹＢ技術統轄部　木辺です。
+> 
+> 下記赤字品番がミケンズのため、構成から抜けていますので、追加していただけな
+> いでしょうか。
+> 
+> 急ぎではありません。
+> 
+> 次回データセンターに入館されるタイミングで大丈夫ですので、ご対応お願い致し
+> ます。
+> 
+> 以上、お手数をお掛けして申し訳ありませんが、よろしくお願い致します。
+> 
+> [cid:_1_0A1B98280A1B95D40007E99449258233]
+> [cid:_1_094361340943599C0016CAA449258233]
+> [添付ファイル ""素材品番追加手順.zip"" は 木邉貞子（８６１４９）/社員/カヤバ工
+> 業が削除しました] [cid:_1_095BADC4095BAB440001F84E49258234]
+> [cid:_1_0F1C5FD00F1C5DA80016054849258234]
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx FUKAYA SHUJI;keims2-support@fujixerox.co.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858;keims2-support@fujixerox.co.jp","EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3833) YCC連絡先","各位
+お疲れ様です。一瀬です。
+
+先ほどYCCに入館いたしました。
+045-942-23893
+内線：6764
+
+作業目的は2017R2のテストリリース設置作業となります。
+17時まで作業する予定です。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3836) Re: 不具合NO.266修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+リリースありがとうございました。
+
+
+KYBプロジェクトメンバー各位
+
+社内環境(keims2_2017R2)に設置しました。
+
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Monday, February 19, 2018 11:15 AM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3834) 不具合NO.266修正しました
+> 
+> 一瀬様、深谷様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合NO.266を修正しました。
+> 
+> 
+> 
+> 修正したモジュールは以下に格納致しました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品\ 20180219_2017-2.0_266
+> <file://143.94.208.74/非共有/10_KYB/611_115_KML納品
+> /%2020180219_2017-2.0_266>
+> 
+> 
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fx FUKAYA SHUJI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3849) [2017R2]ExtJS検索画面改善依頼","ケイさん
+お疲れ様です。一瀬です。
+
+昨日の検索画面説明会で、設計者ユーザーから
+　「検索結果件数が上限数を超えたときに新検索画面ではわからない」
+というご指摘がありました。
+
+そこで検索結果上限数を超えたときの表示をするために、プログラムの
+修正をお願いします。
+Remine #268
+https://my.redmine.jp/kml/issues/268
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3854) [2017R2]不具合報告(#269)","ケイさん
+お疲れ様です。一瀬です。
+
+「プロジェクト変更(文書)」画面の一括変更機能で不具合が見つかりました。
+一括変更後に出力される結果CSVの「変更前プロジェクト」カラムに出力
+される内容が変更前プロジェクトではなく、変更後プロジェクトになっている
+不具合となります。
+
+Redmine #269
+https://my.redmine.jp/kml/issues/269
+
+現在テスト中なので、なるべく早い修正をお願いしたいです。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3863) [2017R2]不具合報告(#273)","ケイさん
+お疲れ様です。一瀬です。
+
+「プロジェクト変更(文書)」画面の一括変更機能で不具合が見つかりました。
+大量データCSVを一括変更して画面を放置するとTimeoutが発生してしまい、
+変更結果CSVがダウンロードできない不具合です。
+以前も同じ問題が発生して、対策をした記憶があります。
+この機能も過去の問題と同様にタイムアウトしないように修正をお願いします。
+
+Redmine #273
+https://my.redmine.jp/kml/issues/273
+
+現在テスト中なので、なるべく早い修正をお願いしたいですところですが、
+私の認識違いで他の類似する長時間必要とする機能でもTimeoutが発生する
+場合、声をかけてください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3872) Re: 不具合NO. 278,279,281修正しました","深谷さん、ケイさん
+お疲れ様です。一瀬です。
+
+チケットの起票、プログラム修正、社内環境での効果確認、ありがとうございました。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fx FUKAYA SHUJI
+> Sent: Friday, February 23, 2018 7:45 PM
+> To: fxY728e <Kei.Dengyoku@fujixerox.co.jp>; fxY6873
+> <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3866) Re: 不具合NO. 278,279,281修正しました
+> 
+> ケイさん
+> 
+> お疲れ様です。深谷です。
+> 
+> 修正モジュールの準備ありがとうございます。
+> 
+> ＞一瀬さん
+> 社内2017R2環境には適用済みです。
+> 確認もOKでした。
+> 
+> 以上、何卒よろしくお願い致します。
+> ________________________________________
+> 差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e
+> の代理で送信
+> 送信日時: 2018年2月23日 18:56
+> 宛先: fx FUKAYA SHUJI; fxY6873
+> CC: keims2-support@fujixerox.co.jp
+> 件名: (keims2-support 3865) 不具合NO. 278,279,281修正しました
+> 
+> 深谷様、一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> 不具合NO. 278,279,281を修正しました。
+> 
+> 修正したモジュールは以下に格納致しました。
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \20180223_2017-2.0_278,279,281
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 以上、宜しくお願い致します。
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx FUKAYA SHUJI;fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=346899adc579420cb1e01f236252fce3-fx28858;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3874) Re: 不具合NO. 280,282修正しました","ケイさん
+お疲れ様です。一瀬です。
+
+リリースありがとうございました。
+概ね動作はOKなのですが、KMLさんがリリースしたフォルダ内に
+エビデンスがありませんでした。
+
+特に#282は色々なパターンのプログラムテストが必要なので、開発者
+観点のエビデンスが欲しいです。
+
+時間のある時で構わないので、エビデンスを作成していただきますよう
+お願いします。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Monday, February 26, 2018 3:25 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>; fx FUKAYA SHUJI
+> <shuji.fukaya@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3873) 不具合NO. 280,282修正しました
+> 
+> 深谷様、一瀬様
+> 
+> 
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合NO. 280,282を修正しました。
+> 
+> 
+> 
+> 修正したモジュールは以下に格納致しました。
+> 
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \ 20180226_2017-2.0_280,282 <file://143.94.208.74/非共有
+> /10_KYB/611_115_KML納品/%2020180226_2017-2.0_280,282>
+> 
+> 
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3883) Re: 不具合#241について","ケイさん
+お疲れ様です。一瀬です。
+
+#241についてですが、現時点では正常にアイコンが表示されています。
+ただ、3/7に岐阜地区での新検索画面説明会があり、3/19に本番リリースを
+予定していますが、その際に新検索画面を開くユーザーが増える事が想定
+できるので、それまでは#241を「新規」の状態にしておこうと考えて
+います。
+
+ただ、担当者が「KML」さんとなっているのはおかしいので、担当者を
+「一瀬」に変更しておきます。
+
+上記2回のタイミングの後にアイコン非表示の報告がKYBさんから来た
+場合、対応していただく可能性がありますが、何もなければこちらで
+#241をクローズしておきます。
+
+以上、よろしくお願い致します。
+
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Tuesday, February 27, 2018 10:46 AM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3881) 不具合#241について
+> 
+> 一瀬様
+> 
+> お疲れ様です。ケイです。
+> 
+> 
+> 
+> 不具合#241、工機センターがExtJS検索画面が正常に表示されない件について、状
+> 況確認させて頂きます。
+> 
+> 前回リリースの後は正常に表示られますでしょうか？
+> 
+> もし、解決済みでしたら、不具合のステータスを更新しようと思われます。
+> 
+> 
+> 
+> 以上、宜しくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3887) [2017R2]不具合報告(#284,#285)","ケイさん
+お疲れ様です。一瀬です。
+
+文書検索に関する不具合を２点Redmineに起票致しました。
+
+●多値属性に関するソート不具合(#284)
+文書の多値属性はソート対象外となっておりますが、新検索画面では、
+　・属性タブのソート設定が設定可能状態となっている
+　・検索結果Gridで多値属性をソート指定できてしまう
+という不具合です。
+https://my.redmine.jp/kml/issues/284
+
+●「正式文書」「添付資料」列がソートできない(#285)
+検索結果Gridで「正式文書」「添付資料」列がソートできません。
+従来型検索ではソートが出来ているので新検索画面でも対応をお願い
+します。
+https://my.redmine.jp/kml/issues/285
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3889) [2017R2]新検索画面修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+新検索画面のランダムテストをFX側で実施しております。
+現時点で見つかった不具合と改善要望をRedmineに起票しました。
+※不具合2件、改善要望3件です。
+
+●改善
+#286 : https://my.redmine.jp/kml/issues/286
+#287 : https://my.redmine.jp/kml/issues/287
+#288 : https://my.redmine.jp/kml/issues/288
+
+●不具合
+#290 : https://my.redmine.jp/kml/issues/290
+#291 : https://my.redmine.jp/kml/issues/291
+
+詳細は各チケットを参照してください
+
+＞深谷さん、百合草さん
+ランダムテストテスト仕様書の「指摘事項」シートに起票したRedmineの番号
+を入力しておきました。
+
+以上、よろしくお願い致します。
+
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3890) [2017R2]不具合報告(#289)","ケイさん
+お疲れ様です。一瀬です。
+
+新たな不具合が見つかりましたので、修正をお願いします。
+
+未検索の状態で詳細プロパティを表示後、フレーム位置の変更を実施すると、
+詳細プロパティのサムネイルに空を示す画像が表示されています。
+※フレーム位置変更前はグレー表示です。
+
+Redmine #289 で起票しました。
+https://my.redmine.jp/kml/issues/289
+
+この不具合は #281 の不具合修正によるサイドエフェクトであると考えられます。
+その場合、#281に伴うKMLさんの単体テストをもう一度実施してください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3891) Re: [2017R2]新検索画面修正依頼","ケイさん
+お疲れ様です。一瀬です。
+
+#289の不具合も含めると計6件の対応が必要となるので、優先順位をつけました。
+※Redmineの「優先度」更新済み
+
+① #288
+② #286、#289
+③ #290、#287
+#291 は別途時間を見つけながら調査をしてください。
+
+ヘルプ作成や機能仕様書作成に影響があるので、#288を優先していただけると
+ありがたいです。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY6873
+> Sent: Wednesday, February 28, 2018 7:35 PM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3889) [2017R2]新検索画面修正依頼
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> 新検索画面のランダムテストをFX側で実施しております。
+> 現時点で見つかった不具合と改善要望をRedmineに起票しました。
+> ※不具合2件、改善要望3件です。
+> 
+> ●改善
+> #286 : https://my.redmine.jp/kml/issues/286
+> #287 : https://my.redmine.jp/kml/issues/287
+> #288 : https://my.redmine.jp/kml/issues/288
+> 
+> ●不具合
+> #290 : https://my.redmine.jp/kml/issues/290
+> #291 : https://my.redmine.jp/kml/issues/291
+> 
+> 詳細は各チケットを参照してください
+> 
+> ＞深谷さん、百合草さん
+> ランダムテストテスト仕様書の「指摘事項」シートに起票したRedmineの番号
+> を入力しておきました。
+> 
+> 以上、よろしくお願い致します。
+> 
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3894) [2017R2] #283再テスト依頼","ケイさん
+お疲れ様です。一瀬です。
+
+Redmine #283に関して、再テストを依頼させてください。
+#283のソースコードを確認していたところ、今回修正したソースの場所は、
+2012/04/27に修正している箇所でした。
+それを今回の#283の修正で、元のコードに戻しています。
+
+そこで私が気にしているのは、
+「当時修正した不具合がデグレードを起こしていないか？」
+ということです。
+そこで、お手数をお掛けして大変申し訳無いのですが、当時の不具合修正が
+デグレードを起こしていないか確認していただけないでしょうか？
+
+当時の修正モジュール格納先は以下の通りです。
+\\143.94.208.74\非共有\10_KYB\200_2011年度活動\606_008_KML納品\20120427_修正モジュール\20120427\20120427
+
+詳細は、#283のコメント4番
+https://my.redmine.jp/kml/issues/283#note-4
+を参照してください。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3896) Re: [2017R2] #283再テスト依頼","ケイさん
+お疲れ様です。一瀬です。
+
+再テストありがとうございました。確認しました。
+次回からは不具合本体の単体テストに加え、可能な限り影響範囲のテスト
+エビデンスも格納していただきますよう、お願い致します。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY728e
+> Sent: Thursday, March 01, 2018 4:13 PM
+> To: fxY6873 <ichinose.takahiro@fujixerox.co.jp>
+> Cc: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3895) Re: [2017R2] #283再テスト依頼
+> 
+> 一瀬様
+> お疲れ様です。ケイです。
+> 
+> 2012/04/27の当時の一部の修正は「修正ミス」と判断し、修正を戻りにしました。
+> 修正の後、そのときの不具体をテストで確認しました。
+> 
+> エビデンスを作成して以下に置きました。
+> \\143.94.208.74\非共有\10_KYB\611_115_KML納品
+> \20180227_2017-2.0_283\KMLエビデンス\20120427_2012年度版KEIMSⅡ不具
+> 合管理表（文書管理）_エビディンス.xlsx
+> 
+> ご確認の程宜しくお願い致します。
+> 
+> 以上、宜しくお願い致します。
+> 
+> -----Original Message-----
+> From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf
+> Of fxY6873
+> Sent: Thursday, March 01, 2018 3:35 PM
+> To: keims2-support@fujixerox.co.jp
+> Subject: (keims2-support 3894) [2017R2] #283再テスト依頼
+> 
+> ケイさん
+> お疲れ様です。一瀬です。
+> 
+> Redmine #283に関して、再テストを依頼させてください。
+> #283のソースコードを確認していたところ、今回修正したソースの場所は、
+> 2012/04/27に修正している箇所でした。
+> それを今回の#283の修正で、元のコードに戻しています。
+> 
+> そこで私が気にしているのは、
+> 「当時修正した不具合がデグレードを起こしていないか？」
+> ということです。
+> そこで、お手数をお掛けして大変申し訳無いのですが、当時の不具合修正が
+> デグレードを起こしていないか確認していただけないでしょうか？
+> 
+> 当時の修正モジュール格納先は以下の通りです。
+> \\143.94.208.74\非共有\10_KYB\200_2011年度活動\606_008_KML納品
+> \20120427_修正モジュール\20120427\20120427
+> 
+> 詳細は、#283のコメント4番
+> https://my.redmine.jp/kml/issues/283#note-4
+> を参照してください。
+> 
+> 以上、よろしくお願い致します。
+> 
+> ==============================================
+> 一瀬　高広
+> ichinose.takahiro@fujixerox.co.jp
+> ==============================================
+> 
+> 
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"

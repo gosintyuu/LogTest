@@ -34725,3 +34725,3720 @@ ichinose.takahiro@fujixerox.co.jp
 
 
 ","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3642) KEIMSⅡ：検索画面検討WKG#5の指摘事項について","KMLケイさん、呉さん、入文さん
+
+お疲れ様です。深谷です。
+
+本日の検索画面検討WKG#5であがった
+追加の指摘項目をお伝え致します。
+
+・検索結果フィルタについて、フィルタがかかっていることが
+　ヘッダー属性の背景色を変えてわかりやすくして欲しい。
+
+・検索結果フィルタが掛かっている状態で、再検索を実施したときに
+　フィルタを解除した状態で検索して欲しい。
+
+・岐阜PSの試作明細書/組立仕様書の検索において、
+　納入品番の値にあった半角スペースが無くなっている。
+　→属性値に半角スペースを入れたテストデータを登録して試したところ
+　　検索結果の画面では半角スペースが表示されませんでした。
+
+それ以外については現状仕様でFixです。
+
+以上、何卒よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3643) KYB：社内テスト環境の構築について","百合草さん
+
+お疲れ様です。深谷です。
+
+社内の2017R2環境構築について、
+KMLさんの2017R2モジュール納品が1/22(月)になりました。
+そこで、1/22(月)に対応可能であれば下記作業を対応してもらいたいです。
+
+-------------
+①アプリ「KEIMS2_2017R2」の構築
+　※スキーマは「KEIMS2_2017R2」を準備済みです。
+
+②アプリ「KEIMS2」の構築
+　※スキーマは「KEIMS2_20180104」を準備済みです。
+
+③アプリ「KEIMS2_TEST」の構築
+　※スキーマは「KEIMS2_20180104_TEST」を準備済みです。
+
+優先順位は①＞②＞③の順でお願いします。
+-------------　 
+
+対応する時間が取れなければ大丈夫です。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3678) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合","一瀬さん、ケイさん
+
+お疲れ様です。深谷です。
+
+2017R2検索画面について南油機より要望＆不具合の
+連絡がございました。
+
+指摘内容の資料は以下に記載しております。
+\\143.94.208.74\非共有\10_KYB\631_901_受領資料(KYB)\20180124_検索ExtJS_南油機検証結果
+・KEIMSⅡ2017R2_検証_20180123.xlsx
+
+テストリリースのタイミングまでに修正をお願い致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年1月24日 11:33
+宛先: seki-osa@kyb.co.jp
+CC: ido-aya@kyb.co.jp; itou-yuka@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3677) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+エンハンスR2のテストにご協力頂きましてありがとうございます。
+下記に要望、不具合に対する対応方針を記載致します。
+
+【要望A】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　ご要望の2箇所に客先品番(図面)の属性を表示するように致します。
+
+【不具合A】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　ステータスが正しい状態でCSV出力されるように修正致します。
+
+【不具合B】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　検索結果でチェックを入れたデータが正しい状態で選択リストCSVに
+　出力されるように修正致します。
+
+【報告A】
+　ご確認頂きましてありがとうございます。
+　
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年1月24日 11:22
+宛先: keims2-support@fujixerox.co.jp
+CC: ido-aya@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+標記の件、エンハンスR2に関する要望と不具合を連絡致します。
+詳細は添付ファイルを参照ください。
+
+【要望A】
+　［客先品番（図面）］を検索結果表示エリアにも追加頂きたく。
+　［2017年度R2_検索画面刷新_要望事項一覧_v8.0.xlsx］－［KEIMSⅡ検索画面刷新_要望事項一覧］Sheetの
+　No.検索-20およびNo.検索-21の［対応方針／回答］欄にも記載がありますので、運用開始までに実装されるとの
+　認識で宜しいでしょうか？
+
+【不具合A】
+　［全件リスト出力］に関する不具合です。
+　ステータスが全て”正式”になる様です。
+
+【不具合B】
+　［選択リスト出力］に関する不具合です。
+　チェックBOXの動作がユーザの意図にそぐわないです。
+
+【報告A】
+　多品図の客先品番に関して、品番毎には設定できない旨確認しました。
+
+　　
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3677) RE: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+エンハンスR2のテストにご協力頂きましてありがとうございます。
+下記に要望、不具合に対する対応方針を記載致します。
+
+【要望A】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　ご要望の2箇所に客先品番(図面)の属性を表示するように致します。
+
+【不具合A】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　ステータスが正しい状態でCSV出力されるように修正致します。
+
+【不具合B】
+　2月中旬(2/19,20)に予定するテストリリースのタイミングで
+　検索結果でチェックを入れたデータが正しい状態で選択リストCSVに
+　出力されるように修正致します。
+
+【報告A】
+　ご確認頂きましてありがとうございます。
+　
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年1月24日 11:22
+宛先: keims2-support@fujixerox.co.jp
+CC: ido-aya@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3675) 【連絡】　KEIMSⅡ2017R2　要望および不具合
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+標記の件、エンハンスR2に関する要望と不具合を連絡致します。
+詳細は添付ファイルを参照ください。
+
+【要望A】
+　［客先品番（図面）］を検索結果表示エリアにも追加頂きたく。
+　［2017年度R2_検索画面刷新_要望事項一覧_v8.0.xlsx］－［KEIMSⅡ検索画面刷新_要望事項一覧］Sheetの
+　No.検索-20およびNo.検索-21の［対応方針／回答］欄にも記載がありますので、運用開始までに実装されるとの
+　認識で宜しいでしょうか？
+
+【不具合A】
+　［全件リスト出力］に関する不具合です。
+　ステータスが全て”正式”になる様です。
+
+【不具合B】
+　［選択リスト出力］に関する不具合です。
+　チェックBOXの動作がユーザの意図にそぐわないです。
+
+【報告A】
+　多品図の客先品番に関して、品番毎には設定できない旨確認しました。
+
+　　
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","ido-aya@kyb.co.jp;itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","ido-aya@kyb.co.jp;itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3671) KYB：KEIMSⅡ-AutoCAD連携操作手順書について","一瀬さん、百合草さん、早坂さん
+
+お疲れ様です。深谷です。
+
+KMS個別エンハンスの受入れテストに向けて
+KEIMSⅡ-AutoCAD連携の操作手順書を用意しました。
+
+\\143.94.208.74\非共有\10_KYB\671_013_テスト
+・KEIMSⅡ-AutoCAD連携操作手順書.xlsx
+
+新規作成、設計変更、CAD化の操作イメージを用意しています。
+不明点があれば深谷まで声をかけて下さい。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3650) KYB：社内KEIMSⅡ2017R2環境について","メンバー各位
+
+お疲れ様です。深谷です。
+
+KEIMSⅡ社内環境に2017R2環境を用意しました。
+
+■KEIMSⅡ2017R2環境
+・URL：http://143.94.208.145:8080/KEIMS2_2017R2/
+・スキーマ：KEIMS2_2017R2
+　※2018/01/04の持ち帰りDBで作成しております。
+
+以上、何卒よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3680) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応","百合草さん
+
+お疲れ様です。深谷です。
+
+部品表の承認情報の文字欠けについて、
+iodtopdfの段階で文字欠けするのか、
+pdf3rsの段階で文字欠けするのか確認した方が良いです。
+
+iodtopdfについて、下記に簡易マニュアルを入れておきました。
+\\143.94.208.74\非共有\10_KYB\100_98_Application\YSS製品\IOWebDOC
+
+P.72にコマンドのパラメータ一覧に「-z」があります。
+この値を変更して文字欠けが改善されるのか確認してみて下さい。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月24日 11:02
+宛先: seki-osa@kyb.co.jp
+CC: keims2-support@fujixerox.co.jp; isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3673) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+KYB株式会社
+關様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+本件継続調査中となります。
+お時間頂戴してしまっており申し訳ございません。
+早急に対策を提示させて頂くように致します。
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年1月24日 10:29:08
+宛先: fx YURIKUSA YOSUKE
+CC: keims2-support@fujixerox.co.jp; isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+富士ゼロックス株式会社
+百合草様
+
+いつも大変お世話になっております。
+
+「『白』の真ん中の横線が潰れ、表示されていない」件について、改善策は
+継続中との認識でよろしいでしょうか？
+
+本日（1/24）、ユーザからの問合せが有り、状況を確認させて頂きたく。
+
+
+以上、お手数ですが、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+fx YURIKUSA YOSUKE <yosuke.yurikusa@fujixerox.co.jp>
+
+2017/11/27 12:48
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>, ""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>
+cc
+""isaji-yuk@kyb.co.jp"" <isaji-yuk@kyb.co.jp>, ""itou-yuka@kyb.co.jp"" <itou-yuka@kyb.co.jp>
+件名
+RE: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+
+
+
+KYB株式会社
+關様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+本件、返信遅れまして申し訳ございません。
+「『白』の真ん中の横線が潰れ、表示されていない」とのことで、
+弊社環境でも確認出来ました。
+改善策について検討致しますので少々お待ちください。
+
+ちなみに、「クアドラ」様の件に関しては、特にシステムへの変更を行っておりませんので、
+今回の件と関係はなく、以前から同様の表示（潰れている）であったかと思われます。
+
+以上宜しくお願い致します。
+
+**********************************
+富士ゼロックス株式会社
+インダストリービジネスソリューション・サービス事業本部
+製造・流通ソリューション・サービス統括
+ソリューション・サービス第二技術部
+百合草 陽介
+TEL  03-5717-1363
+Fax  03-5717-1368
+E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2017年11月23日 14:43:31
+宛先: keims2-support@fujixerox.co.jp
+CC: isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+標記の件、対応頂きたく。
+
+＜不具合内容＞
+　図面訂正欄の「担当」欄において、「白石」がうまく表示されていない。
+　
+
+
+　※最近、「クアドラ」→「クアドラ」にした件と関連するのでしょうか？
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3685) KYB：岐阜SAのデータ移行作業の概要説明について","KML神城様
+
+お疲れ様です。深谷です。
+
+先程お電話でご相談した件ですが、
+2018年度にKEIMSⅡの岐阜SAセグメントを
+Oracle社のAgileシステムへ移行する計画がございます。
+
+データ移行にあたってデータ抽出とデータ加工の作業を
+KMLさんにお願いできればと考えております。
+
+明日1/25(木)10:00～12:00@用賀事務所で
+概要説明をさせて頂ければと存じますので、
+ご足労おかけ致しますが何卒よろしくお願い致します。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","kmljapan@pop16.odn.ne.jp","kmljapan@pop16.odn.ne.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3695) Re: 岐阜SAマルチページ対応の作業内容確認願い","百合草さん
+
+お疲れ様です。深谷です。
+
+作業内容確認しました。
+特に問題はないと思います。
+
+1/26(金)のデータセンター作業で対応可能な
+問合せがあればあわせて対応してきて下さい。
+
+・PS部門の承認サインTIFF
+・サムネイル一括変換シェルの確認
+・PDF3RSの解像度変更
+など
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月24日 18:28
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3691) 岐阜SAマルチページ対応の作業内容確認願い
+
+深谷さん　皆様
+
+お疲れ様です、百合草です。
+
+金曜作業予定の岐阜SAマルチページ対応の作業内容を以下に格納しました。
+お忙しいところお手数をおかけいたしますが、ご確認頂けますと助かります。
+
+\\143.94.208.74\非共有\10_KYB\100_01_お客様環境作業\20180126_【YCC】_岐阜SAマルチページ対応\01_事前準備\01_岐阜SAマルチページ対応
+実施事項.txt
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3696) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応","百合草さん
+
+お疲れ様です。深谷です。
+
+PDF3RSの解像度を400dpi→600dpiに変更することで
+改善されたとのことですので、
+明日關様に600dpiで作成した部品表帳票を確認してもらってOKが出れば
+1/26(金)のデータセンター作業で対応してきてくれると助かります。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月24日 19:03
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3692) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+深谷さん
+
+お疲れ様です、百合草です。
+
+調査経過です。
+まだ特定には至っていないので継続調査します。
+
+以下に変換データを格納しています。
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.834\原因調査
+・01_IOWebDOC
+IOWebDOCによるPDF変換は、現在の設定である「デフォルト」と、
+引数指定した「圧縮なし」でファイルサイズは異なるも、綺麗さほぼ同じに見えます。
+また、変換を、UIから実施する方法とコマンドで実施する方法の２パターンで試しましたが、
+違いは見られなかったです。
+ただし、この時点で、KEIMSⅡを通したデータは白石の真ん中の線が消えています。
+
+・02_PDF3RS
+PDFからTIFFに変換したところ、若干画質が悪くなっています。
+ここで、変換の綺麗さを保てればきれいにはなります。
+
+⇒以下２点を調査します
+・KEIMSⅡを通すことでなにか違いがあるか？
+・PDF3RSの変換の綺麗さを保つ方法について
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年1月24日 13:04:12
+宛先: fx YURIKUSA YOSUKE
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3680) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+百合草さん
+
+お疲れ様です。深谷です。
+
+部品表の承認情報の文字欠けについて、
+iodtopdfの段階で文字欠けするのか、
+pdf3rsの段階で文字欠けするのか確認した方が良いです。
+
+iodtopdfについて、下記に簡易マニュアルを入れておきました。
+\\143.94.208.74\非共有\10_KYB\100_98_Application\YSS製品\IOWebDOC
+
+P.72にコマンドのパラメータ一覧に「-z」があります。
+この値を変更して文字欠けが改善されるのか確認してみて下さい。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月24日 11:02
+宛先: seki-osa@kyb.co.jp
+CC: keims2-support@fujixerox.co.jp; isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3673) RE: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+KYB株式会社
+關様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+本件継続調査中となります。
+お時間頂戴してしまっており申し訳ございません。
+早急に対策を提示させて頂くように致します。
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年1月24日 10:29:08
+宛先: fx YURIKUSA YOSUKE
+CC: keims2-support@fujixerox.co.jp; isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3670) Fw: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+富士ゼロックス株式会社
+百合草様
+
+いつも大変お世話になっております。
+
+「『白』の真ん中の横線が潰れ、表示されていない」件について、改善策は
+継続中との認識でよろしいでしょうか？
+
+本日（1/24）、ユーザからの問合せが有り、状況を確認させて頂きたく。
+
+
+以上、お手数ですが、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+fx YURIKUSA YOSUKE <yosuke.yurikusa@fujixerox.co.jp>
+
+2017/11/27 12:48
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>, ""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>
+cc
+""isaji-yuk@kyb.co.jp"" <isaji-yuk@kyb.co.jp>, ""itou-yuka@kyb.co.jp"" <itou-yuka@kyb.co.jp>
+件名
+RE: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+
+
+
+KYB株式会社
+關様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+本件、返信遅れまして申し訳ございません。
+「『白』の真ん中の横線が潰れ、表示されていない」とのことで、
+弊社環境でも確認出来ました。
+改善策について検討致しますので少々お待ちください。
+
+ちなみに、「クアドラ」様の件に関しては、特にシステムへの変更を行っておりませんので、
+今回の件と関係はなく、以前から同様の表示（潰れている）であったかと思われます。
+
+以上宜しくお願い致します。
+
+**********************************
+富士ゼロックス株式会社
+インダストリービジネスソリューション・サービス事業本部
+製造・流通ソリューション・サービス統括
+ソリューション・サービス第二技術部
+百合草 陽介
+TEL  03-5717-1363
+Fax  03-5717-1368
+E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2017年11月23日 14:43:31
+宛先: keims2-support@fujixerox.co.jp
+CC: isaji-yuk@kyb.co.jp; itou-yuka@kyb.co.jp
+件名: (keims2-support 3288) 【依頼】　KEIMSⅡ部品表印字不具合対応
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+標記の件、対応頂きたく。
+
+＜不具合内容＞
+　図面訂正欄の「担当」欄において、「白石」がうまく表示されていない。
+　
+
+
+　※最近、「クアドラ」→「クアドラ」にした件と関連するのでしょうか？
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3706) RE: (keims2-project 23228) Fw: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について","百合草さん
+
+お疲れ様です。深谷です。
+
+すみませんがよろしくお願い致します。
+作業終わりましたら各部門の担当者様へ連絡お願い致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月25日 11:50
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3704) FW: (keims2-project 23228) Fw: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について
+
+深谷さん
+
+お疲れ様です、百合草です。
+
+金曜で本件も対応してきます。
+作業実施内容は以下に格納しています。
+
+\\143.94.208.74\非共有\10_KYB\100_01_お客様環境作業\20180126_【YCC】_岐阜SAマルチページ対応\01_事前準備\99_運用支援サービス対応管理表No.873(備考ラベル修正)
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年1月23日 14:13
+宛先: kakami-yuu@kyb.co.jp
+CC: noguchi-yosh@kyb.co.jp; keims2-project@fujixerox.co.jp
+件名: (keims2-project 23232) RE: (keims2-project 23228) Fw: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について
+
+KYBモーターサイクルサスペンション株式会社
+各務様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+直近ですと2/9(金)に相模工場へ伺う機会がございますので、
+遅くとも2/9までには対応可能です。
+
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kakami-yuu@kyb.co.jp <kakami-yuu@kyb.co.jp> の代理で送信
+送信日時: 2018年1月23日 13:24
+宛先: fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-project@fujixerox.co.jp
+件名: (keims2-project 23228) Fw: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について
+
+
+富士ゼロックス　深谷様
+
+いつもお世話になっております。KMS技術部の各務です。
+
+下記の件、了解致しました。
+修正できる日付はいつ頃になりそうでしょうか？
+
+----- 転送者:  各務裕也（Ｇ０１１３）/ゲスト/カヤバ工業 転送日: 2018/01/23 13:22 -----
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/01/23 08:59
+宛先
+""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>
+cc
+""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>
+件名
+RE: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について
+
+
+
+
+
+KYBモーターサイクルサスペンション株式会社
+各務様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+お問合せの件、英語ログインでの画面ラベル不備となります。
+大変申し訳ございません。
+御社またはデータセンターへ次回伺う際に修正するように致します。
+
+画面ラベルの文字内容が違うだけで、入力した内容は出図依頼帳票の
+「備考」に反映されますので、一先ず現状のまま出図依頼を実施
+頂ければと存じます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kakami-yuu@kyb.co.jp <kakami-yuu@kyb.co.jp> の代理で送信
+送信日時: 2018年1月22日 13:40:29
+宛先: fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-project@fujixerox.co.jp
+件名: (keims2-project 23212) KEIMSⅡ　出図依頼帳票作成画面について
+
+
+富士ゼロックス　深谷様
+
+いつもお世話になっております。KMS技術部の各務です。
+
+KAPにて出図依頼帳票を作成してもらおうとしているのですが、KAP側のKEIMSⅡの画面が
+日本の画面と違うという問い合わせがありました。
+
+確認してみると、「備考」欄がKAP画面だと「品番一括登録_en」となっています。
+（詳細は添付エクセルを参照下さい）
+
+こちらは項目の文字内容が違うだけで、入力した内容は出図依頼帳票の「備考」に反映されるのでしょうか？
+また、「備考」の表記に変える事はできるのでしょうか？
+
+以上です。
+ご多忙のところ申し訳ないですが、回答いただけると幸いです。
+よろしくお願い致します。
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3707) Re: KYB：岐阜SAのデータ移行作業の概要説明について","KML神城様
+
+お疲れ様です。深谷です。
+
+本日は用賀事務所までご足労頂きまして
+誠にありがとうございました。
+本日説明の資料を送付致します。
+
+エクセルのL列（対応工数）、M列（仕様変更工数）
+を記入して返送願います。
+※希望納期：1/29(月)AMまで
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が kmljapan <kmljapan@pop16.odn.ne.jp> の代理で送信
+送信日時: 2018年1月24日 15:32:39
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3689) Re: KYB：岐阜SAのデータ移行作業の概要説明について
+
+承知いたしました。
+
+----- Original Message -----
+From: ""fx FUKAYA SHUJI"" <shuji.fukaya@fujixerox.co.jp>
+To: <kmljapan@pop16.odn.ne.jp>
+Cc: <keims2-support@fujixerox.co.jp>
+Sent: Wednesday, January 24, 2018 1:58 PM
+Subject: KYB：岐阜SAのデータ移行作業の概要説明について
+
+
+KML神城様
+
+お疲れ様です。深谷です。
+
+先程お電話でご相談した件ですが、
+2018年度にKEIMSⅡの岐阜SAセグメントを
+Oracle社のAgileシステムへ移行する計画がございます。
+
+データ移行にあたってデータ抽出とデータ加工の作業を
+KMLさんにお願いできればと考えております。
+
+明日1/25(木)10:00～12:00@用賀事務所で
+概要説明をさせて頂ければと存じますので、
+ご足労おかけ致しますが何卒よろしくお願い致します。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","kmljapan","kmljapan@pop16.odn.ne.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3729) FW: (keims2-project 23280) 【KEIMS II 採番】追い番満杯のため、新品番体系追加の件","KMLケイさん
+
+お疲れ様です、深谷です。
+
+以下問合せ対応をお願いします（No.882）。
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.882
+
+社内環境にて採番を確認出来ればと思います。
+
+添付のパスワードは「sS6MOIxk」です。
+
+以上宜しくお願い致します。
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が minohora-hir@kyb.co.jp <minohora-hir@kyb.co.jp> の代理で送信
+送信日時: 2018年1月26日 14:40
+宛先: keims2-project@fujixerox.co.jp
+CC: takahashi-mits@kyb.co.jp; yasui-take@kyb.co.jp; kamo-shi@kyb.co.jp; ooshima-aki@kyb.co.jp; sakaida-kaz@kyb.co.jp; kusakabe-mas@kyb.co.jp
+件名: (keims2-project 23280) 【KEIMS II 採番】追い番満杯のため、新品番体系追加の件
+
+
+お世話になっております。　蓑洞＠KYBです
+
+以下の組合せの品番「A0346-X05XX」が満杯になりましたので、
+新しい体系「A0346-X55XX」を追加します
+
+テスト用DBにてSQLを実行して正常に採番できるのを確認しましたので、
+本番DBでSQLを実行して確認します。
+
+実行したSQLを添付します。
+
+量試区分                  ： 試作
+製品コード        ：ストラット
+製品分類コード    ：本体部品
+部品名称コード    ：ピストン
+形式コード        ：Ｃ３５
+共通性区分        ：なし
+
+
+
+/----------------------------------------------
+/--  （技本）IT開発部（北駐在） 蓑洞　裕明
+/--  E-Mail : minohora-hir@kyb.co.jp
+/--  Tel （内線）：7-24-3395/（外線）：0574-26-5399
+/--  Fax （内線）：7-24-3957/（外線）：0574-26-9548
+/----------------------------------------------
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3732) Re: KYB：岐阜SAのデータ移行作業の概要説明について","KML神城様
+
+お疲れ様です。深谷です。
+
+工数を算出頂きましてありがとうございました。
+要件が固まってきた段階で改めて工数算出をして頂ければと
+存じますので、その際はよろしくお願い致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が kmljapan <kmljapan@pop16.odn.ne.jp> の代理で送信
+送信日時: 2018年1月26日 15:38
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3731) Re: KYB：岐阜SAのデータ移行作業の概要説明について
+
+深谷様
+
+お疲れ様です。神城です。
+
+工数を記入しました。
+御確認願います。
+
+宜しくお願い致します。
+
+----- Original Message -----
+From: ""fx FUKAYA SHUJI"" <shuji.fukaya@fujixerox.co.jp>
+To: ""kmljapan"" <kmljapan@pop16.odn.ne.jp>
+Cc: <keims2-support@fujixerox.co.jp>
+Sent: Thursday, January 25, 2018 12:56 PM
+Subject: RE: (keims2-support 3689) Re: KYB：岐阜SAのデータ移行作業の概要説明について
+
+
+KML神城様
+
+お疲れ様です。深谷です。
+
+本日は用賀事務所までご足労頂きまして
+誠にありがとうございました。
+本日説明の資料を送付致します。
+
+エクセルのL列（対応工数）、M列（仕様変更工数）
+を記入して返送願います。
+※希望納期：1/29(月)AMまで
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が kmljapan
+<kmljapan@pop16.odn.ne.jp> の代理で送信
+送信日時: 2018年1月24日 15:32:39
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3689) Re: KYB：岐阜SAのデータ移行作業の概要説明について
+
+
+承知いたしました。
+
+----- Original Message -----
+From: ""fx FUKAYA SHUJI"" <shuji.fukaya@fujixerox.co.jp>
+To: <kmljapan@pop16.odn.ne.jp>
+Cc: <keims2-support@fujixerox.co.jp>
+Sent: Wednesday, January 24, 2018 1:58 PM
+Subject: KYB：岐阜SAのデータ移行作業の概要説明について
+
+
+KML神城様
+
+お疲れ様です。深谷です。
+
+先程お電話でご相談した件ですが、
+2018年度にKEIMSⅡの岐阜SAセグメントを
+Oracle社のAgileシステムへ移行する計画がございます。
+
+データ移行にあたってデータ抽出とデータ加工の作業を
+KMLさんにお願いできればと考えております。
+
+明日1/25(木)10:00～12:00@用賀事務所で
+概要説明をさせて頂ければと存じますので、
+ご足労おかけ致しますが何卒よろしくお願い致します。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","kmljapan","kmljapan@pop16.odn.ne.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3733) KYB：サムネイル一括変換の動作不備について","一瀬さん、百合草さん、ケイさん
+
+お疲れ様です。深谷です。
+
+サムネイル一括変換シェルの動作不備について
+原因調査ありがとうございます。
+
+config.xmlのURL指定に原因がありましたが、
+すみません、自分がもっと早く気付くべきでした。
+
+本番、ミラーのホスト名の設定ですが以下になっています。
+・keims2.ycc.kyb.co.jp：ロードバランサのVIP「202..252.57.182」が紐付く
+・dctest01.ycc.kyb.co.jp：dctest01サーバの直IP「202.252.57.175」が紐付く
+
+現状のロードバランサの設定はNAT変換がされていないため
+本番のホスト名の場合、行きの通信はロードバランサを経由しますが、
+帰りの通信はロードバランサを経由せず直接アプリサーバに帰ります。
+（行きと帰りで別ルートになり通信ができなくなります。）
+
+そのため、URL指定をアプリサーバの直IPに変えることで、
+ロードバランサを経由せず直接アプリサーバに通信するので、
+通信可能な状態になります。
+ミラーのホスト名もロードバランサを経由しないため通信可能な状態です。
+
+※イメージは以下のサイトがわかりやすいです。
+　http://ips.nekotype.com/607/
+
+
+来週データセンターに入るタイミングでクーロンでもサムネイル一括変換
+が正常動作していれば本件はクローズで大丈夫です。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3736) Re: KYB：サムネイル一括変換の動作不備について","一瀬さん、百合草さん
+
+お疲れ様です。深谷です。
+
+先週金曜日に取得してもらいました
+KEIMSⅡアプリサーバのシェルですが、
+URL設定状況をまとめました。
+
+\\143.94.208.74\非共有\10_KYB\611_300_本番DB・環境設定\R2
+・KEIMSⅡアプリサーバシェルURL設定状況.xlsx
+
+赤字のURL設定については変更する必要がありますので、
+次回データセンター入館の際に対応お願い致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年1月26日 18:29
+宛先: fx FUKAYA SHUJI; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3734) Re: KYB：サムネイル一括変換の動作不備について
+
+深谷さん
+
+お疲れ様です、百合草です。
+
+情報展開有難うございます。
+また、取得した現在のShellは以下に格納しました。
+\\143.94.208.74\非共有\10_KYB\100_01_お客様環境作業\20180126_【YCC】_岐阜SAマルチページ対応\02_持ち帰りデータ\11_サムネイル作成Shell動作不具合\Shell現状
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年1月26日 17:49:05
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3733) KYB：サムネイル一括変換の動作不備について
+
+一瀬さん、百合草さん、ケイさん
+
+お疲れ様です。深谷です。
+
+サムネイル一括変換シェルの動作不備について
+原因調査ありがとうございます。
+
+config.xmlのURL指定に原因がありましたが、
+すみません、自分がもっと早く気付くべきでした。
+
+本番、ミラーのホスト名の設定ですが以下になっています。
+・keims2.ycc.kyb.co.jp：ロードバランサのVIP「202..252.57.182」が紐付く
+・dctest01.ycc.kyb.co.jp：dctest01サーバの直IP「202.252.57.175」が紐付く
+
+現状のロードバランサの設定はNAT変換がされていないため
+本番のホスト名の場合、行きの通信はロードバランサを経由しますが、
+帰りの通信はロードバランサを経由せず直接アプリサーバに帰ります。
+（行きと帰りで別ルートになり通信ができなくなります。）
+
+そのため、URL指定をアプリサーバの直IPに変えることで、
+ロードバランサを経由せず直接アプリサーバに通信するので、
+通信可能な状態になります。
+ミラーのホスト名もロードバランサを経由しないため通信可能な状態です。
+
+※イメージは以下のサイトがわかりやすいです。
+　http://ips.nekotype.com/607/
+
+
+来週データセンターに入るタイミングでクーロンでもサムネイル一括変換
+が正常動作していれば本件はクローズで大丈夫です。
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3771) Re: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼","百合草さん
+
+お疲れ様です。深谷です。
+
+今度岐阜に行くタイミングがまだ決まっていないので、
+決まったら伝えます。
+
+以上です。
+よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年2月2日 17:04
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3769) Re: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼
+
+SEメンバー
+
+お疲れ様です、百合草です。
+
+岐阜SAのPDFが表示出来ない問題に関して、
+杁山様に電話して状況確認しました。
+
+・変わらずKEIMSⅡのPDF表示は出来ないため、他のPCで作業されている。
+・PDF関連のソフトが競合している可能性をつたえたところ、
+　以前該当PCに線などを書いたりすることのソフトを入れた記憶があるとのこと。
+　ただし、それをきっかけに閲覧出来なくなったかはわからない。
+　そのソフトに関しては削除しても構わないとのことです。
+・杁山様は遅番など不規則だがタイミング良ければ立ち会って頂けるとのことだったので、
+　また連絡させて頂きますとしています。
+
+お忙しいところすみませんが、
+どなたか岐阜に行くタイミングがあれば、対応を調整させてください。
+
+以上宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が kubota-hiro@kyb.co.jp <kubota-hiro@kyb.co.jp> の代理で送信
+送信日時: 2017年11月29日 9:06:49
+宛先: fx YURIKUSA YOSUKE
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3333) RE: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼
+
+
+百合草　様
+
+お世話になっております。
+
+>PDF表示をIEブラウザから閲覧可能かご確認頂ければと思います。
+
+ 閲覧可能です。
+
+宜しくお願い致します。
++--------------------------------------+
+  ＫＹＢ（株）　ＩＴ開発部（北駐在）
+　久保田　博昭
+  電話   　0574-26-5399
+  内線   　7-24-3395 　PHS 6364
+  E-mail　 kubota-hiro@kyb.co.jp
++--------------------------------------+
+
+
+fx YURIKUSA YOSUKE <yosuke.yurikusa@fujixerox.co.jp>
+
+2017/11/27 18:42
+宛先
+""kubota-hiro@kyb.co.jp"" <kubota-hiro@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>
+件名
+RE: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼
+
+
+
+
+
+KYB株式会社
+久保田様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+先ほどはお電話にて有難うございました。
+[PDF をブラウザーに表示]の設定もされているとのことで承知しました。
+
+事象の切り分けのため、KEIMSⅡ以外のサイトでPDFをブラウザで
+表示出来るかご確認頂けますでしょうか？
+外部サイトは、貴社公式HPのIR情報などで良いので、
+PDF表示をIEブラウザから閲覧可能かご確認頂ければと思います。
+
+以上宜しくお願い致します。
+
+**********************************
+富士ゼロックス株式会社
+インダストリービジネスソリューション・サービス事業本部
+製造・流通ソリューション・サービス統括
+ソリューション・サービス第二技術部
+百合草 陽介
+TEL  03-5717-1363
+Fax  03-5717-1368
+E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2017年11月27日 13:30:59
+宛先: kubota-hiro@kyb.co.jp
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3298) Re: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼
+
+KYB株式会社
+久保田様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+
+Adobe側の設定情報の送付有難うございました。
+設定に関しては問題なさそうです。
+お手数をおかけいたしますが、以下の設定に関してもご確認頂けますでしょうか？
+
+ヘルプ＞よくある質問
+?A5-3: Adobe Readerのブラウザ表示設定がOFFになっている可能性があります。
+Adobe Readerに対し、以下の手順で設定を行って下さい。
+ 1. Adobe Readerを起動し、[編集] メニューから [環境設定] － [インターネット] を選択します。
+ 2. [PDF をブラウザーに表示] にチェックし、[OK] ボタンをクリックします。
+
+以上宜しくお願い致します。
+
+**********************************
+富士ゼロックス株式会社
+インダストリービジネスソリューション・サービス事業本部
+製造・流通ソリューション・サービス統括
+ソリューション・サービス第二技術部
+百合草 陽介
+TEL  03-5717-1363
+Fax  03-5717-1368
+E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kubota-hiro@kyb.co.jp <kubota-hiro@kyb.co.jp> の代理で送信
+送信日時: 2017年11月27日 8:35:23
+宛先: fx YURIKUSA YOSUKE
+CC: keims2-project@fujixerox.co.jp
+件名: (keims2-project 22532) ＫＥＩＭＳⅡ調査依頼
+
+
+百合草　様
+
+お世話になっております。
+
+御手数ですが調査を御願い致します。
+
+ＫＥＩＭＳⅡの検索画面で種別クリックで図面を見ようとすると、添付ファイルのメツセージが表示れます
+ヘルプにある下記の内容を試しましたが上手くいきません。
+
+ *   Q5: 図面・文書のPDFがブラウザ内で表示できません（PDFにExpiredと表示される）。
+
+
+
+宜しくお願い致します。
++--------------------------------------+
+ ＫＹＢ（株）　ＩＴ開発部（北駐在）
+　久保田　博昭
+ 電話   　0574-26-5399
+ 内線   　7-24-3395 　PHS 6364
+ E-mail　 kubota-hiro@kyb.co.jp
++--------------------------------------+
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3779) KYB：R2テスト_No.14完了","百合草さん、一瀬さん、早坂さん
+
+お疲れ様です。深谷です。
+
+R2テストについて、深谷の方で引き取った
+No.14_図面訂正時の押印サイン処理の改善
+のテストが終了しました。
+
+\\143.94.208.74\非共有\10_KYB\671_013_テスト\02_テスト結果
+・【完了】テスト結果_2017KMS個別EH_No.14_図面訂正時の押印サイン処理の改善.xlsm
+
+以上です。
+よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3781) Re: [KMS個別]テストで発見した不具合の修正依頼","KMLケイさん
+
+お疲れ様です。深谷です。
+
+Redmine #248の件ですが、2013年にも同様の不具合がありました。
+
+\\143.94.208.74\非共有\10_KYB\200_2013年度活動\611_008_不具合管理
+・20140708_不具合管理表_0.xls
+
+No.7が同様不具合です。
+利用しているコンバーターが今回とは違うので直接の原因ではないですが、
+生成されるPDFファイルが多数のストリップで分割されていましたので、
+参考として下さい。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY6873 の代理で送信
+送信日時: 2018年2月6日 20:31
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3778) [KMS個別]テストで発見した不具合の修正依頼
+
+ケイさん
+お疲れ様です。一瀬です。
+
+本日実施したテストの中で新たに2件不具合が見つかりましたので、
+対応をお願いします。
+
+Redmine の #248, #249 で起票しました。
+
+可能であれば#247と同時にリリースしていただけると助かります。
+ただし、#248に関しては時間が必要な場合は声をかけてください。
+
+※#249はすぐに修正できる不具合なので、#247と同時リリースは
+　可能であると考えております。
+
+以上、よろしくお願い致します。
+
+==============================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+==============================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY6873;keims2-support@fujixerox.co.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5a8f722f5348400ea4ba09c3cdf89582-fxY6873;keims2-support@fujixerox.co.jp","EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3789) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+お問合せの件、承知致しました。
+用意するようにしますので、暫しお待ち頂けばと存じます。
+
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月7日 17:07
+宛先: keims2-support@fujixerox.co.jp
+CC: itou-yuka@kyb.co.jp
+件名: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+出図パターン設定におけるスタンパー選択において、ご助力頂きたく。
+
+＜依頼事項＞
+　電子出図に使用するスタンパーの名称とスタンプ形状との対照表が欲しい。
+
+＜依頼背景＞
+　マニュアル等がなく、業務引継した担当者が対応できない。
+　例えば「南丸印英字」が、どんな形状のものを指すのか分からない。
+　　
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3790) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化","KMLケイさん
+
+お疲れ様です、深谷です。
+
+運用保守対応をお願いします（No.888）
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.888
+
+南油機セグメントで設定しているスタンプ名と
+そのスタンプイメージをExcelで整理してもらえると助かります。
+※優先度は下げて頂いて大丈夫です。
+　R2エンハンスを優先して対応して下さい。
+
+スタンプイメージは以下に格納してあります。
+・プロッタスタンプ
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\21_ハードウェアスタンプ情報\02_プロッタスタンプ_DW9090_南油機
+
+・電子配信スタンプ（図面）
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\22_電子配信スタンプ（図面）\02_南油機
+
+・電子配信スタンプ（文書）
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\23_電子配信スタンプ（文書）\南油機
+
+以上宜しくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月7日 17:15
+宛先: seki-osa@kyb.co.jp
+CC: itou-yuka@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3789) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+お問合せの件、承知致しました。
+用意するようにしますので、暫しお待ち頂けばと存じます。
+
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月7日 17:07
+宛先: keims2-support@fujixerox.co.jp
+CC: itou-yuka@kyb.co.jp
+件名: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+出図パターン設定におけるスタンパー選択において、ご助力頂きたく。
+
+＜依頼事項＞
+　電子出図に使用するスタンパーの名称とスタンプ形状との対照表が欲しい。
+
+＜依頼背景＞
+　マニュアル等がなく、業務引継した担当者が対応できない。
+　例えば「南丸印英字」が、どんな形状のものを指すのか分からない。
+　　
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3800) 【確認】SBS停電に伴う用賀サーバのシャットダウンについて","KMLケイさん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+ケイさん、呉さんは本日何時頃まで作業予定していますか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3799) KYB：KMS個別EHのNo.15_テスト仕様書修正","一瀬さん、早坂さん
+
+お疲れ様です。深谷です。
+
+KMS個別EHのNo.15のテスト仕様書ですが、
+仕様変更に伴って内容を修正しました。
+
+\\143.94.208.74\非共有\10_KYB\671_013_テスト\02_テスト結果
+・【テスト中】テスト仕様書_2017KMS個別EH_No.15_AutoCAD連携ツールで入力した属性情報の再利用_深谷修正.xlsm
+
+以上です。
+よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3802) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて","KMLケイさん
+
+お疲れ様です。深谷です。
+
+19時まで作業予定とのこと承知しました。
+それでは19時過ぎにシャットダウンするようにします。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月9日 9:34
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3801) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷様
+
+お疲れ様です。ケイです。
+
+了解しました。
+
+今日は19時まで作業致しますので、宜しくお願い致します。
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fx FUKAYA SHUJI
+Sent: Friday, February 09, 2018 9:27 AM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3800) 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+ケイさん、呉さんは本日何時頃まで作業予定していますか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3803) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて","伊藤さん、鈴木さん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+19時過ぎに停止しようと思うのですが問題ないでしょうか？
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:36
+宛先: fxY728e
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3802) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+19時まで作業予定とのこと承知しました。
+それでは19時過ぎにシャットダウンするようにします。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月9日 9:34
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3801) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷様
+
+お疲れ様です。ケイです。
+
+了解しました。
+
+今日は19時まで作業致しますので、宜しくお願い致します。
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fx FUKAYA SHUJI
+Sent: Friday, February 09, 2018 9:27 AM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3800) 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+ケイさん、呉さんは本日何時頃まで作業予定していますか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx SUZUKI YASUNOBU;fx ITOH HIROYUKI","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f410389d857f41348bfc1cf1d1f42c2d-fx28272;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=19c7e7d63ac24b40afb048c9c931cae7-fx28344","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3805) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて","鈴木さん
+
+お疲れ様です。深谷です。
+
+了解しました。
+返信ありがとうございます。
+
+以上です。
+よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx SUZUKI YASUNOBU の代理で送信
+送信日時: 2018年2月9日 9:56
+宛先: fx FUKAYA SHUJI; fx ITOH HIROYUKI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3804) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷さん
+
+お疲れ様です。鈴木です。
+
+問題ないです。よろしくお願いします。
+□■━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　　富士ゼロックス株式会社
+　　インダストリービジネスソリューション・サービス事業本部
+　　製造・流通SS統括 SS第2技術部
+　　鈴木 泰伸（Yasunobu Suzuki）
+
+　　住所：〒106-0032 東京都港区六本木3-1-1
+　　　　　　　　　　 六本木ティーキューブ12階
+　　Email：yasunobu.suzuki@fujixerox.co.jp
+　　TEL：03-3584-3276　　FAX：03-5573-9728
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━■□
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:51
+宛先: fx SUZUKI YASUNOBU; fx ITOH HIROYUKI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3803) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+伊藤さん、鈴木さん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+19時過ぎに停止しようと思うのですが問題ないでしょうか？
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:36
+宛先: fxY728e
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3802) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+19時まで作業予定とのこと承知しました。
+それでは19時過ぎにシャットダウンするようにします。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月9日 9:34
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3801) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷様
+
+お疲れ様です。ケイです。
+
+了解しました。
+
+今日は19時まで作業致しますので、宜しくお願い致します。
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fx FUKAYA SHUJI
+Sent: Friday, February 09, 2018 9:27 AM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3800) 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+ケイさん、呉さんは本日何時頃まで作業予定していますか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx SUZUKI YASUNOBU","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f410389d857f41348bfc1cf1d1f42c2d-fx28272","EX","keims2-support@fujixerox.co.jp;fx ITOH HIROYUKI","keims2-support@fujixerox.co.jp;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=19c7e7d63ac24b40afb048c9c931cae7-fx28344","SMTP;EX",,,,,,"標準","標準"
+"(keims2-support 3806) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて","百合草さん
+
+お疲れ様です。深谷です。
+
+先程伊藤さんからCWFサーバはもう停止したので、
+19時過ぎに用賀サーバ停止しても大丈夫と連絡ありました。
+
+去年、シャットダウンがうまくできずに
+一瀬さんと自分で作業引き継いだ記憶があります。
+
+NASを先に停止してしまうとマウントしているサーバが
+停止できなかった記憶があるので注意して下さい。
+
+以上です。
+よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:58
+宛先: fx SUZUKI YASUNOBU
+CC: keims2-support@fujixerox.co.jp; fx ITOH HIROYUKI
+件名: (keims2-support 3805) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+鈴木さん
+
+お疲れ様です。深谷です。
+
+了解しました。
+返信ありがとうございます。
+
+以上です。
+よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx SUZUKI YASUNOBU の代理で送信
+送信日時: 2018年2月9日 9:56
+宛先: fx FUKAYA SHUJI; fx ITOH HIROYUKI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3804) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷さん
+
+お疲れ様です。鈴木です。
+
+問題ないです。よろしくお願いします。
+□■━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　　富士ゼロックス株式会社
+　　インダストリービジネスソリューション・サービス事業本部
+　　製造・流通SS統括 SS第2技術部
+　　鈴木 泰伸（Yasunobu Suzuki）
+
+　　住所：〒106-0032 東京都港区六本木3-1-1
+　　　　　　　　　　 六本木ティーキューブ12階
+　　Email：yasunobu.suzuki@fujixerox.co.jp
+　　TEL：03-3584-3276　　FAX：03-5573-9728
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━■□
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:51
+宛先: fx SUZUKI YASUNOBU; fx ITOH HIROYUKI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3803) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+伊藤さん、鈴木さん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+19時過ぎに停止しようと思うのですが問題ないでしょうか？
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 9:36
+宛先: fxY728e
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3802) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+19時まで作業予定とのこと承知しました。
+それでは19時過ぎにシャットダウンするようにします。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月9日 9:34
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3801) Re: 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+深谷様
+
+お疲れ様です。ケイです。
+
+了解しました。
+
+今日は19時まで作業致しますので、宜しくお願い致します。
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fx FUKAYA SHUJI
+Sent: Friday, February 09, 2018 9:27 AM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3800) 【確認】SBS停電に伴う用賀サーバのシャットダウンについて
+
+KMLケイさん
+
+お疲れ様です。深谷です。
+
+今度の日曜にSBSが停電を予定しているため
+本日用賀サーバをシャットダウンする予定です。
+
+ケイさん、呉さんは本日何時頃まで作業予定していますか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3808) KEIMSⅡ：検索画面検討WKG#6の指摘事項について","KMLケイさん、呉さん
+
+お疲れ様です。深谷です。
+
+本日の検索画面検討WKG#6であがった
+追加の指摘項目をお伝え致します。
+
+---------
+・フィルタリング機能はなくす。
+　（検索パフォーマンス優先とする。）
+
+・サムネイル一覧のズームバーについて
+　ExcelやPowerPointの右下にあるズームバーのようなイメージで
+　数値入力でも拡大縮小ができるようにしたい。
+　→技術的に可能であれば対応すると回答してますので、
+　　優先度""低""で調査して下さい。
+---------
+
+のちほどRedmineにも記載しておきます。
+
+以上です。
+よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3811) RE: KEIMSⅡ：検索画面検討WKG#6の指摘事項について","一瀬さん
+
+お疲れ様です。深谷です。
+
+了解しました。
+それではズームバー対応のみRedmineに起票しておきます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY6873 の代理で送信
+送信日時: 2018年2月9日 17:18
+宛先: fx FUKAYA SHUJI; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3810) RE: KEIMSⅡ：検索画面検討WKG#6の指摘事項について
+
+深谷さん
+お疲れ様です。一瀬です。
+
+お客様指摘事項の2件のうち、「フィルタリング機能」をなくす
+という修正はすでに修正済みとなります。
+先日リリースしていただいた納品時にはすでにOFFとなっている
+ため、「サムネイル一覧のズームバー対応」のみの対応をして
+いただくだけでOKです。
+
+以上、よろしくお願いいたします。
+
+===========================================
+一瀬　高広
+ichinose.takahiro@fujixerox.co.jp
+===========================================
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月9日 17:08:11
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3808) KEIMSⅡ：検索画面検討WKG#6の指摘事項について
+
+KMLケイさん、呉さん
+
+お疲れ様です。深谷です。
+
+本日の検索画面検討WKG#6であがった
+追加の指摘項目をお伝え致します。
+
+---------
+・フィルタリング機能はなくす。
+　（検索パフォーマンス優先とする。）
+
+・サムネイル一覧のズームバーについて
+　ExcelやPowerPointの右下にあるズームバーのようなイメージで
+　数値入力でも拡大縮小ができるようにしたい。
+　→技術的に可能であれば対応すると回答してますので、
+　　優先度""低""で調査して下さい。
+---------
+
+のちほどRedmineにも記載しておきます。
+
+以上です。
+よろしくお願い致します。
+
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY6873","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5a8f722f5348400ea4ba09c3cdf89582-fxY6873","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3816) RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+承知致しました。
+詳細につきましてご連絡お待ちしております。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: seki-osa@kyb.co.jp <seki-osa@kyb.co.jp>
+送信日時: 2018年2月13日 12:32
+宛先: fx FUKAYA SHUJI
+CC: hara-yasut@kyb.co.jp; keims2-support@fujixerox.co.jp; noguchi-yosh@kyb.co.jp; suzuki-hit@kyb.co.jp; tanaka-chi@kyb.co.jp
+件名: RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+ありがとうございます。
+
+それでは、3/7（水）に説明を北工場（午前）と南工場（午後）に
+お願い致します。
+
+詳細は別途、ご連絡させて頂きます。
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/13 09:19
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>, ""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>, ""tanaka-chi@kyb.co.jp"" <tanaka-chi@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>
+件名
+RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+
+
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+一般ユーザー向け説明会の日程調整、
+誠にありがとうございます。
+
+ご連絡頂きました3/7(水)で弊社は問題ございません。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: seki-osa@kyb.co.jp <seki-osa@kyb.co.jp>
+送信日時: 2018年2月12日 14:43
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; suzuki-hit@kyb.co.jp; hara-yasut@kyb.co.jp; tanaka-chi@kyb.co.jp; noguchi-yosh@kyb.co.jp
+件名: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつもお世話になっております。
+
+KEIMSⅡ改善に対する一般ユーザー向け説明会の日程案を作成しました。
+下記日程でのご対応は可能でしょうか？
+
+（相模地区は2/20実施予定ですが、岐阜地区は2月中の開催が厳しく。）
+
+問題無ければ、本内容にて弊社内（岐阜地区）に周知致します。
+
+＜日時・場所＞
+　◇開　催　日        ３月７日（水）
+
+　◇時　　間        　　場　　　所　　　        内　　　容
+　　１０：００        （北）C301会議室        検索画面刷新
+　　　～１１：００
+
+　　１１：００        （北）C301会議室        KMS向け変更箇所
+　　　～１２：００
+
+　　１３：００        （南）総事２F_1，2会議室        検索画面刷新
+　　　～１４：３０
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","hara-yasut@kyb.co.jp;keims2-support@fujixerox.co.jp;noguchi-yosh@kyb.co.jp;suzuki-hit@kyb.co.jp;tanaka-chi@kyb.co.jp","hara-yasut@kyb.co.jp;keims2-support@fujixerox.co.jp;noguchi-yosh@kyb.co.jp;suzuki-hit@kyb.co.jp;tanaka-chi@kyb.co.jp","SMTP;SMTP;SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3814) RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+一般ユーザー向け説明会の日程調整、
+誠にありがとうございます。
+
+ご連絡頂きました3/7(水)で弊社は問題ございません。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: seki-osa@kyb.co.jp <seki-osa@kyb.co.jp>
+送信日時: 2018年2月12日 14:43
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; suzuki-hit@kyb.co.jp; hara-yasut@kyb.co.jp; tanaka-chi@kyb.co.jp; noguchi-yosh@kyb.co.jp
+件名: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつもお世話になっております。
+
+KEIMSⅡ改善に対する一般ユーザー向け説明会の日程案を作成しました。
+下記日程でのご対応は可能でしょうか？
+
+（相模地区は2/20実施予定ですが、岐阜地区は2月中の開催が厳しく。）
+
+問題無ければ、本内容にて弊社内（岐阜地区）に周知致します。
+
+＜日時・場所＞
+　◇開　催　日        ３月７日（水）
+
+　◇時　　間        　　場　　　所　　　        内　　　容
+　　１０：００        （北）C301会議室        検索画面刷新
+　　　～１１：００
+
+　　１１：００        （北）C301会議室        KMS向け変更箇所
+　　　～１２：００
+
+　　１３：００        （南）総事２F_1，2会議室        検索画面刷新
+　　　～１４：３０
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp;suzuki-hit@kyb.co.jp;hara-yasut@kyb.co.jp;tanaka-chi@kyb.co.jp;noguchi-yosh@kyb.co.jp","keims2-support@fujixerox.co.jp;suzuki-hit@kyb.co.jp;hara-yasut@kyb.co.jp;tanaka-chi@kyb.co.jp;noguchi-yosh@kyb.co.jp","SMTP;SMTP;SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3831) Re: (keims2-project 23531) Re: ミケンズ部品の構成追加依頼","一瀬さん、ケイさん
+
+お疲れ様です。深谷です。
+
+KMS木辺様問合せ対応用のSQLを用意しました。
+下記フォルダに格納しております。
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.889\SQL
+
+02,03のSQLについては、オブジェクトIDの値を手動設定してから
+実行するようにして下さい。
+
+すみませんが明日の作業よろしくお願い致します。
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp> の代理で送信
+送信日時: 2018年2月14日 13:00
+宛先: fx FUKAYA SHUJI
+CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp; keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp; takao-man@kyb.co.jp
+件名: (keims2-project 23531) Re: ミケンズ部品の構成追加依頼
+
+
+富士ゼロックス 深谷様
+
+いつもお世話になっております。
+ＫＹＢ技術統轄部　木辺です。
+
+ご無理を言って申し訳ありません。
+よろしくお願い致します。
+
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/14 12:57
+宛先
+""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp>
+cc
+""inaguma-hid@kyb.co.jp"" <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>, ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>, ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+件名
+RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+
+
+
+KYB株式会社
+木辺様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+承知致しました。
+それでは弊社作業にて構成追加を実施するように致します。
+
+作業完了しましたら木辺様にご連絡させて頂きます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp>
+送信日時: 2018年2月14日 9:21:31
+宛先: fx FUKAYA SHUJI
+CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp; keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp; takao-man@kyb.co.jp
+件名: RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+富士ゼロックス 深谷様
+
+いつもお世話になっております。
+ＫＹＢ技術統轄部　木辺です。
+
+ご連絡ありがとうございます。
+
+弊社側で⊿Up無し設計変更を実施しますと、
+すべての箇所に⊿が付いてしまい、それは避けたいので、
+データセンターにてご対応していただけませんでしょうか。
+
+お忙しいところ申し訳ありませんが、よろしくお願い致します。
+
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/13 15:47
+宛先
+""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp>
+cc
+""inaguma-hid@kyb.co.jp"" <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>, ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>, ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+件名
+RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+
+
+
+KYB株式会社
+木辺様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+今朝ご連絡頂きました部品構成追加の件、
+該当のデータを確認したところ、追加対象の
+13301-60134Cが新規作成中ステータスで
+仕掛エリアに存在しておりました。
+
+2/16(金)に弊社側で追加するとご連絡しましたが、
+⊿Up無し設計変更を実施することで
+13301-60134Cを部品表構成に追加することが可能です。
+
+操作手順を纏めましたのでお手数ですがご対応お願い致します。
+※解凍時のパスワードは「kmsfx」になります。
+
+操作に関してご不明点等ございましたらご連絡下さい。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp>
+送信日時: 2018年2月13日 13:08
+宛先: fx FUKAYA SHUJI
+CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp; keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp; takao-man@kyb.co.jp
+件名: RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+富士ゼロックス 深谷様
+
+いつもお世話になっております。
+ＫＹＢ技術統轄部　木辺です。
+
+ご連絡ありがとうございます。
+
+お忙しいところ申し訳ありませんが、よろしくお願い致します。
+
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/13 10:43
+宛先
+""kibe-sad@kyb.co.jp"" <kibe-sad@kyb.co.jp>
+cc
+""inaguma-hid@kyb.co.jp"" <inaguma-hid@kyb.co.jp>, ""kakami-yuu@kyb.co.jp"" <kakami-yuu@kyb.co.jp>, ""keims2-project@fujixerox.co.jp"" <keims2-project@fujixerox.co.jp>, ""kogiso-sho@kyb.co.jp"" <kogiso-sho@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""takao-man@kyb.co.jp"" <takao-man@kyb.co.jp>
+件名
+RE: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+
+
+
+KYB株式会社
+木辺様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+ご連絡頂きました件、今週2/16(金)にデータセンターへ入館する
+予定がございますので、合わせて対応するように致します。
+
+作業が終わりましたら木辺様へご連絡致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kibe-sad@kyb.co.jp <kibe-sad@kyb.co.jp> の代理で送信
+送信日時: 2018年2月13日 10:26
+宛先: fx FUKAYA SHUJI
+CC: inaguma-hid@kyb.co.jp; kakami-yuu@kyb.co.jp; keims2-project@fujixerox.co.jp; kogiso-sho@kyb.co.jp; noguchi-yosh@kyb.co.jp; takao-man@kyb.co.jp
+件名: (keims2-project 23489) ミケンズ部品の構成追加依頼
+
+
+いつもお世話になっております。
+ＫＹＢ技術統轄部　木辺です。
+
+下記赤字品番がミケンズのため、構成から抜けていますので、追加していただけないでしょうか。
+
+急ぎではありません。
+
+次回データセンターに入館されるタイミングで大丈夫ですので、ご対応お願い致します。
+
+以上、お手数をお掛けして申し訳ありませんが、よろしくお願い致します。
+
+[cid:_1_0A1B98280A1B95D40007E99449258233]
+[cid:_1_094361340943599C0016CAA449258233]
+[添付ファイル ""素材品番追加手順.zip"" は 木邉貞子（８６１４９）/社員/カヤバ工業が削除しました] [cid:_1_095BADC4095BAB440001F84E49258234]
+[cid:_1_0F1C5FD00F1C5DA80016054849258234]
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"FW: 【重要】 SBS⇒T3引っ越しについて","一瀬さん、神城さん、ケイさん、呉さん
+
+お疲れ様です。深谷です。
+
+六本木T-Cubeへの移動ですが、内藤部長より案内ありましたので転送します。
+3月は暫定的に10F、4月以降は12Fで調整予定とのことです。
+
+＞神城さん、ケイさん、呉さん
+ケイさん、呉さんお二人のスケジュールですが、以下を予定しております。
+-------------
+・～3/22(木)：引越し準備＆PC配送
+・3/23(金)：用賀最終出社日
+・3/26(月)～3/30(金)：KML新宿出社
+　※T-Cube側の諸々の準備があると思われるので3/30(金)までは
+　　KML新宿オフィスへ出社願います。
+・4/2(月)～：T-Cube出社
+-------------
+
+また詳細スケジュールが決まり次第ご連絡するようにします。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: fx NAITO RYUICHI
+送信日時: 2018年2月20日 9:42
+宛先: fx-IBSS-SS2-1G
+CC: fx-IBSS-SS2-Mgr-2017LH
+件名: 【重要】 SBS⇒T3引っ越しについて
+
+1Gメンバー各位
+
+おはようございます、内藤です。
+引っ越しについて変更点がありましたので、連絡します。
+
+1G（17名）+業務委託（6名）計23名の入居場所ですが、
+当初予定の12Fではなく、10Fへの入居になる見込みです。
+2島（24名）が10Fで確保できたことから、
+業務委託メンバーを含めてグループとしては1か所になります。
+
+但し、4月以降の全体レイアウト・座席変更の際には、
+現行のSS2部の枠組みが変わらなければ
+部員全員が1か所にまとまるように調整します。
+
+従って、3月時点では暫定ですが、
+SS2部は10Fと12Fの2フロアに分かれての配置になります。
+
+以上よろしくお願いいたします。
+
+------------------------------------------------------
+富士ゼロックス株式会社
+IBSS事業本部
+製造･流通SS統括
+SS第二技術部
+内藤隆一
+--
+〒106-0032
+東京都港区六本木3-1-1
+六本木ティーキューブ12F
+TEL    03-3584-3276 / 7-5-18667
+FAX    03-5573-9728
+MAIL   Ryuichi.Naito@fujixerox.co.jp
+携帯   090-3398-1381
+★携帯で応答できない時は
+　ショートメールにてお名前と電話番号を送信いただければ、
+　こちらから折り返します。
+------------------------------------------------------
+
+","fx FUKAYA SHUJI","/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=346899ADC579420CB1E01F236252FCE3-FX28858","EX","fxY6873;fxY728e;fxY72cc;kmljapan@pop16.odn.ne.jp","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5a8f722f5348400ea4ba09c3cdf89582-fxY6873;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e915092afae54014819125546da1c2c5-fxY72cc;kmljapan@pop16.odn.ne.jp","EX;EX;EX;SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3841) RE: (keims2-support 3840) KEIMSⅡマニュアル","KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+英語版マニュアルの件、以下の条件であれば
+こちらで対応することは可能です。
+
+・文言は機械翻訳（Google翻訳）
+・検索画面キャプチャは日本語マニュアルのまま
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が suzuki-hit@kyb.co.jp <suzuki-hit@kyb.co.jp> の代理で送信
+送信日時: 2018年2月21日 10:40
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+富士ゼロックス株式会社　深谷様
+
+お世話になっております。KYB　サス技　鈴木です。
+
+KEIMSⅡ検索画面更新のマニュアルの件で相談させてください。
+海外拠点に展開したところ、あちこちから英語版マニュアルの要望が
+ありました。
+英語版のマニュアルを作成していただくことは可能でしょうか？
+ご検討よろしくお願いいたします。
+
+－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ株式会社
+オートモーティブコンポーネンツ事業本部
+サスペンション事業部
+技術部　第二設計室
+鈴木 均 (Hitoshi Suzuki)
+Tel:(0574)26-5177
+Fax:(0574)26-9548
+E-mail:suzuki-hit@kyb.co.jp
+－－－－－－－－－－－－－－－－－－－－
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","suzuki-hit@kyb.co.jp","suzuki-hit@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","SMTP;SMTP;SMTP;SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3844) RE: (keims2-support 3843) RE: (keims2-support 3840) KEIMSⅡマニュアル","KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+承知しました。
+それでは作成出来次第、鈴木様宛てに送付させて頂きます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が suzuki-hit@kyb.co.jp <suzuki-hit@kyb.co.jp> の代理で送信
+送信日時: 2018年2月21日 11:36
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3843) RE: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+富士ゼロックス株式会社　深谷様
+
+お世話になっております。KYB　サス技　鈴木です。
+
+ご提示いただいた条件でOKです。
+お手数をお掛けしますが、ご対応よろしくお願いいたします。
+
+
+
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/21 11:25
+宛先
+""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""hagiwara-aki@kyb.co.jp"" <hagiwara-aki@kyb.co.jp>, ""wakabayashi-hir@kyb.co.jp"" <wakabayashi-hir@kyb.co.jp>, ""ono-jun@kyb.co.jp"" <ono-jun@kyb.co.jp>, ""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>, ""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>
+件名
+RE: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+
+
+
+KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+英語版マニュアルの件、以下の条件であれば
+こちらで対応することは可能です。
+
+・文言は機械翻訳（Google翻訳）
+・検索画面キャプチャは日本語マニュアルのまま
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が suzuki-hit@kyb.co.jp <suzuki-hit@kyb.co.jp> の代理で送信
+送信日時: 2018年2月21日 10:40
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+富士ゼロックス株式会社　深谷様
+
+お世話になっております。KYB　サス技　鈴木です。
+
+KEIMSⅡ検索画面更新のマニュアルの件で相談させてください。
+海外拠点に展開したところ、あちこちから英語版マニュアルの要望が
+ありました。
+英語版のマニュアルを作成していただくことは可能でしょうか？
+ご検討よろしくお願いいたします。
+
+－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ株式会社
+オートモーティブコンポーネンツ事業本部
+サスペンション事業部
+技術部　第二設計室
+鈴木 均 (Hitoshi Suzuki)
+Tel:(0574)26-5177
+Fax:(0574)26-9548
+E-mail:suzuki-hit@kyb.co.jp
+－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","suzuki-hit@kyb.co.jp","suzuki-hit@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","SMTP;SMTP;SMTP;SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3847) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化","ケイさん
+
+お疲れ様です。深谷です。
+
+南油機出図スタンプの整理ありがとうございます。
+内容確認し、特に問題ございませんでした。
+
+お客様へ送付しておきます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月21日 11:28
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3842) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+深谷様
+
+お疲れ様です。ケイです。
+
+Excelに整理しました。以下に格納いたしました。
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.888\南油機スタンプイメージ.xlsx
+
+以上、宜しくお願い致します。
+
+-----Original Message-----
+From: keims2-support [mailto:keims2-support-bounces@fujixerox.co.jp] On Behalf Of fx FUKAYA SHUJI
+Sent: Wednesday, February 07, 2018 5:22 PM
+To: keims2-support@fujixerox.co.jp
+Subject: (keims2-support 3790) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+KMLケイさん
+
+お疲れ様です、深谷です。
+
+運用保守対応をお願いします（No.888）
+\\143.94.208.74\非共有\10_KYB\100_02_お客様問合せ履歴\900_問合せ詳細\No.888
+
+南油機セグメントで設定しているスタンプ名と
+そのスタンプイメージをExcelで整理してもらえると助かります。
+※優先度は下げて頂いて大丈夫です。
+　R2エンハンスを優先して対応して下さい。
+
+スタンプイメージは以下に格納してあります。
+・プロッタスタンプ
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\21_ハードウェアスタンプ情報\02_プロッタスタンプ_DW9090_南油機
+
+・電子配信スタンプ（図面）
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\22_電子配信スタンプ（図面）\02_南油機
+
+・電子配信スタンプ（文書）
+\\143.94.208.74\非共有\10_KYB\100_03_本番環境設定情報・ファイル\23_電子配信スタンプ（文書）\南油機
+
+以上宜しくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月7日 17:15
+宛先: seki-osa@kyb.co.jp
+CC: itou-yuka@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3789) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+お問合せの件、承知致しました。
+用意するようにしますので、暫しお待ち頂けばと存じます。
+
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月7日 17:07
+宛先: keims2-support@fujixerox.co.jp
+CC: itou-yuka@kyb.co.jp
+件名: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+出図パターン設定におけるスタンパー選択において、ご助力頂きたく。
+
+＜依頼事項＞
+　電子出図に使用するスタンパーの名称とスタンプ形状との対照表が欲しい。
+
+＜依頼背景＞
+　マニュアル等がなく、業務引継した担当者が対応できない。
+　例えば「南丸印英字」が、どんな形状のものを指すのか分からない。
+　　
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3848) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+ご要望ございました出図スタンプの対照表を用意しました。
+出力先ごとにスタンプ名とスタンプ形状を整理しております。
+※解凍時のパスワードは御社小文字会社名3文字です。
+
+ご不明点ございましたらご連絡下さい。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月7日 17:15
+宛先: seki-osa@kyb.co.jp
+CC: itou-yuka@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3789) RE: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+お問合せの件、承知致しました。
+用意するようにしますので、暫しお待ち頂けばと存じます。
+
+以上、何卒よろしくお願い致します。
+
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月7日 17:07
+宛先: keims2-support@fujixerox.co.jp
+CC: itou-yuka@kyb.co.jp
+件名: (keims2-support 3787) 【依頼】　KEIMSⅡ　スタンパーの名称と形状の見える化
+
+
+富士ゼロックス株式会社
+KEIMSⅡ担当者様
+
+いつも大変お世話になっております。
+
+出図パターン設定におけるスタンパー選択において、ご助力頂きたく。
+
+＜依頼事項＞
+　電子出図に使用するスタンパーの名称とスタンプ形状との対照表が欲しい。
+
+＜依頼背景＞
+　マニュアル等がなく、業務引継した担当者が対応できない。
+　例えば「南丸印英字」が、どんな形状のものを指すのか分からない。
+　　
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","itou-yuka@kyb.co.jp;keims2-support@fujixerox.co.jp","SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3851) RE: (keims2-support 3843) RE: (keims2-support 3840) KEIMSⅡマニュアル","KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+ご要望ございました検索画面操作説明書の
+英語版を用意しましたので送付致します。
+※解凍時のパスワードは御社小文字会社名3文字です。
+
+ご関係者様への配布をよろしくお願い致します。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年2月21日 11:42
+宛先: suzuki-hit@kyb.co.jp
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3844) RE: (keims2-support 3843) RE: (keims2-support 3840) KEIMSⅡマニュアル
+
+KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+承知しました。
+それでは作成出来次第、鈴木様宛てに送付させて頂きます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が suzuki-hit@kyb.co.jp <suzuki-hit@kyb.co.jp> の代理で送信
+送信日時: 2018年2月21日 11:36
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3843) RE: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+富士ゼロックス株式会社　深谷様
+
+お世話になっております。KYB　サス技　鈴木です。
+
+ご提示いただいた条件でOKです。
+お手数をお掛けしますが、ご対応よろしくお願いいたします。
+
+
+
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/21 11:25
+宛先
+""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""hagiwara-aki@kyb.co.jp"" <hagiwara-aki@kyb.co.jp>, ""wakabayashi-hir@kyb.co.jp"" <wakabayashi-hir@kyb.co.jp>, ""ono-jun@kyb.co.jp"" <ono-jun@kyb.co.jp>, ""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>, ""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>
+件名
+RE: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+
+
+
+KYB株式会社
+鈴木様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+英語版マニュアルの件、以下の条件であれば
+こちらで対応することは可能です。
+
+・文言は機械翻訳（Google翻訳）
+・検索画面キャプチャは日本語マニュアルのまま
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が suzuki-hit@kyb.co.jp <suzuki-hit@kyb.co.jp> の代理で送信
+送信日時: 2018年2月21日 10:40
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; hagiwara-aki@kyb.co.jp; wakabayashi-hir@kyb.co.jp; ono-jun@kyb.co.jp; seki-osa@kyb.co.jp; hara-yasut@kyb.co.jp
+件名: (keims2-support 3840) KEIMSⅡマニュアル
+
+
+富士ゼロックス株式会社　深谷様
+
+お世話になっております。KYB　サス技　鈴木です。
+
+KEIMSⅡ検索画面更新のマニュアルの件で相談させてください。
+海外拠点に展開したところ、あちこちから英語版マニュアルの要望が
+ありました。
+英語版のマニュアルを作成していただくことは可能でしょうか？
+ご検討よろしくお願いいたします。
+
+－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ株式会社
+オートモーティブコンポーネンツ事業本部
+サスペンション事業部
+技術部　第二設計室
+鈴木 均 (Hitoshi Suzuki)
+Tel:(0574)26-5177
+Fax:(0574)26-9548
+E-mail:suzuki-hit@kyb.co.jp
+－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","suzuki-hit@kyb.co.jp","suzuki-hit@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","keims2-support@fujixerox.co.jp;hagiwara-aki@kyb.co.jp;wakabayashi-hir@kyb.co.jp;ono-jun@kyb.co.jp;seki-osa@kyb.co.jp;hara-yasut@kyb.co.jp","SMTP;SMTP;SMTP;SMTP;SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3852) KYB：詳細プロパティエリアのグレーバーのクリックアクションについて","早坂さん
+
+お疲れ様です。深谷です。
+
+先程質問があった検索画面と構成表示画面の詳細プロパティエリアで
+グレーバーのクリックアクションが異なる件、
+確認したところ、以下のようになっておりました。
+
+・仕掛検索画面：カーソルアウトすると自動で隠れる
+・正式検索画面：カーソルアウトすると自動で隠れる
+・文書検索画面：カーソルアウトすると自動で隠れる
+・仕掛構成表示画面：カーソルアウトしても固定
+・正式構成表示画面：カーソルアウトすると自動で隠れる
+
+仕掛構成表示画面だけが異なるクリックアクションになっていましたので、
+仕掛構成表示画面だけを修正したいと思いますが、ヘルプの影響は大きいですか？
+
+以上、何卒よろしくお願い致します。
+=========================================================
+ 富士ゼロックス株式会社
+　インダストリービジネスソリューション・サービス事業本部
+　製造・流通ソリューション・サービス統括
+　ソリューション・サービス第二技術部
+
+ 深谷 周史（Fukaya Shuji）
+
+ E-mail ：shuji.fukaya@fujixerox.co.jp
+ 外　線 ：03-5717-1363
+ ＦＡＸ ：03-5717-1368
+ 内　線 ：7-5-28858
+ Address：〒158-0097
+ 　　　　 東京都世田谷区用賀4-10-1
+ 　　　　 世田谷ビジネススクエア 7F
+=========================================================
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,,,,"標準","標準"
+"(keims2-support 3866) Re: 不具合NO. 278,279,281修正しました","ケイさん
+
+お疲れ様です。深谷です。
+
+修正モジュールの準備ありがとうございます。
+
+＞一瀬さん
+社内2017R2環境には適用済みです。
+確認もOKでした。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fxY728e の代理で送信
+送信日時: 2018年2月23日 18:56
+宛先: fx FUKAYA SHUJI; fxY6873
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3865) 不具合NO. 278,279,281修正しました
+
+深谷様、一瀬様
+
+お疲れ様です。ケイです。
+
+不具合NO. 278,279,281を修正しました。
+
+修正したモジュールは以下に格納致しました。
+\\143.94.208.74\非共有\10_KYB\611_115_KML納品\20180223_2017-2.0_278,279,281
+
+ご確認の程宜しくお願い致します。
+
+以上、宜しくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fxY728e;fxY6873","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cd39a893007d411bb08175d0fc2d276b-fxY728e;/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5a8f722f5348400ea4ba09c3cdf89582-fxY6873","EX;EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3880) RE: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+3/7(水)の説明会の情報を展開頂きましてありがとうございます。
+当日ですが、説明用のPCを1台拝借させて頂けますと幸いです。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月27日 9:28
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつも大変お世話になっております。
+
+3/7（水）説明会の件ですが、慌ただしい日程を組みまして申し訳ありません。
+
+南工場の地図を送信致します。
+
+南工場へお越し頂いた際、説明会場となる『（南）総合事務所２F　1，2会議室』を
+休憩場所としてご利用ください。
+該当の会議室は、総合事務所に入って左手側にある階段を上りきり、再び左手側に
+曲がって頂きますと右手側にあります。
+
+　　
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+----- 転送者:  關理文（９４０７３）/社員/カヤバ工業 転送日: 2018/02/26 14:56 -----
+關 理文（９４０７３）/社員/カヤバ工業
+
+2018/02/13 12:32
+宛先
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+cc
+""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>, ""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>, ""tanaka-chi@kyb.co.jp"" <tanaka-chi@kyb.co.jp>
+件名
+RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7リンク<Notes://AMAIL11/49256B7400356681/DABA975B9FB113EB852564B5001283EA/18BF846EA86C73F4492582330001CA32>
+
+
+
+
+富士ゼロックス株式会社
+深谷様
+
+ありがとうございます。
+
+それでは、3/7（水）に説明を北工場（午前）と南工場（午後）に
+お願い致します。
+
+詳細は別途、ご連絡させて頂きます。
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/13 09:19
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>, ""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>, ""tanaka-chi@kyb.co.jp"" <tanaka-chi@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>
+件名
+RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+
+
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+一般ユーザー向け説明会の日程調整、
+誠にありがとうございます。
+
+ご連絡頂きました3/7(水)で弊社は問題ございません。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: seki-osa@kyb.co.jp <seki-osa@kyb.co.jp>
+送信日時: 2018年2月12日 14:43
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; suzuki-hit@kyb.co.jp; hara-yasut@kyb.co.jp; tanaka-chi@kyb.co.jp; noguchi-yosh@kyb.co.jp
+件名: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつもお世話になっております。
+
+KEIMSⅡ改善に対する一般ユーザー向け説明会の日程案を作成しました。
+下記日程でのご対応は可能でしょうか？
+
+（相模地区は2/20実施予定ですが、岐阜地区は2月中の開催が厳しく。）
+
+問題無ければ、本内容にて弊社内（岐阜地区）に周知致します。
+
+＜日時・場所＞
+　◇開　催　日        ３月７日（水）
+
+　◇時　　間        　　場　　　所　　　        内　　　容
+　　１０：００        （北）C301会議室        検索画面刷新
+　　　～１１：００
+
+　　１１：００        （北）C301会議室        KMS向け変更箇所
+　　　～１２：００
+
+　　１３：００        （南）総事２F_1，2会議室        検索画面刷新
+　　　～１４：３０
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3885) RE: (keims2-support 3882) RE: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7","KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+ありがとうございます。
+それでは3/7(水)当日は何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月27日 10:47
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3882) RE: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつも大変お世話になっております。
+
+説明用PC１台を用意する件、承知致しました。
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/27 10:22
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>
+件名
+RE: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+
+
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+3/7(水)の説明会の情報を展開頂きましてありがとうございます。
+当日ですが、説明用のPCを1台拝借させて頂けますと幸いです。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が seki-osa@kyb.co.jp <seki-osa@kyb.co.jp> の代理で送信
+送信日時: 2018年2月27日 9:28
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3877) 【場所連絡】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつも大変お世話になっております。
+
+3/7（水）説明会の件ですが、慌ただしい日程を組みまして申し訳ありません。
+
+南工場の地図を送信致します。
+
+南工場へお越し頂いた際、説明会場となる『（南）総合事務所２F　1，2会議室』を
+休憩場所としてご利用ください。
+該当の会議室は、総合事務所に入って左手側にある階段を上りきり、再び左手側に
+曲がって頂きますと右手側にあります。
+
+　　
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+----- 転送者:  關理文（９４０７３）/社員/カヤバ工業転送日: 2018/02/26 14:56 -----
+關 理文（９４０７３）/社員/カヤバ工業
+
+2018/02/13 12:32
+宛先
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+cc
+""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>, ""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>, ""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>, ""tanaka-chi@kyb.co.jp"" <tanaka-chi@kyb.co.jp>
+件名
+RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7リンク<Notes://AMAIL11/49256B7400356681/DABA975B9FB113EB852564B5001283EA/18BF846EA86C73F4492582330001CA32>
+
+
+
+
+富士ゼロックス株式会社
+深谷様
+
+ありがとうございます。
+
+それでは、3/7（水）に説明を北工場（午前）と南工場（午後）に
+お願い致します。
+
+詳細は別途、ご連絡させて頂きます。
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+
+fx FUKAYA SHUJI <shuji.fukaya@fujixerox.co.jp>
+
+2018/02/13 09:19
+宛先
+""seki-osa@kyb.co.jp"" <seki-osa@kyb.co.jp>
+cc
+""keims2-support@fujixerox.co.jp"" <keims2-support@fujixerox.co.jp>, ""suzuki-hit@kyb.co.jp"" <suzuki-hit@kyb.co.jp>, ""hara-yasut@kyb.co.jp"" <hara-yasut@kyb.co.jp>, ""tanaka-chi@kyb.co.jp"" <tanaka-chi@kyb.co.jp>, ""noguchi-yosh@kyb.co.jp"" <noguchi-yosh@kyb.co.jp>
+件名
+RE: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+
+
+
+KYB株式会社
+關様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+一般ユーザー向け説明会の日程調整、
+誠にありがとうございます。
+
+ご連絡頂きました3/7(水)で弊社は問題ございません。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: seki-osa@kyb.co.jp <seki-osa@kyb.co.jp>
+送信日時: 2018年2月12日 14:43
+宛先: fx FUKAYA SHUJI
+CC: keims2-support@fujixerox.co.jp; suzuki-hit@kyb.co.jp; hara-yasut@kyb.co.jp; tanaka-chi@kyb.co.jp; noguchi-yosh@kyb.co.jp
+件名: 【日程案】　KEIMSⅡ一般ユーザー向け説明会　3/7
+
+
+富士ゼロックス株式会社
+深谷様
+
+いつもお世話になっております。
+
+KEIMSⅡ改善に対する一般ユーザー向け説明会の日程案を作成しました。
+下記日程でのご対応は可能でしょうか？
+
+（相模地区は2/20実施予定ですが、岐阜地区は2月中の開催が厳しく。）
+
+問題無ければ、本内容にて弊社内（岐阜地区）に周知致します。
+
+＜日時・場所＞
+　◇開　催　日        ３月７日（水）
+
+　◇時　　間        　　場　　　所　　　        内　　　容
+　　１０：００        （北）C301会議室        検索画面刷新
+　　　～１１：００
+
+　　１１：００        （北）C301会議室        KMS向け変更箇所
+　　　～１２：００
+
+　　１３：００        （南）総事２F_1，2会議室        検索画面刷新
+　　　～１４：３０
+
+
+以上、よろしくお願い致します。
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ＫＹＢ（株）
+ハイドロリックコンポーネンツ事業本部
+技術統轄部 岐阜南駐在
+關 理文 (Osabumi Seki)
+E-mail Address:seki-osa@kyb.co.jp
+TEL:0574-26-0656
+FAX:0574-26-1491
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
+<Notes://amail11/49256B7400356681/DABA975B9FB113EB852564B5001283EA/18BF846EA86C73F4492582330001CA32>
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","seki-osa@kyb.co.jp","seki-osa@kyb.co.jp","SMTP","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
+"(keims2-support 3907) RE: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について","KYBモーターサイクルサスペンション株式会社
+各務様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+1/31にお問合せ頂いておりました件、
+その後の検討は如何でしょうか？
+
+もし対応が必要なのであればご連絡頂ければと存じます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年2月1日 15:08
+宛先: kakami-yuu@kyb.co.jp; fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3757) RE: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について
+
+KMS技術部
+各務様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+ご質問頂いた件、以下のとおり回答させて頂きます。
+
+対応方法としては以下の2通りです。
+
+①現在の仕様のままで、設定を変更する
+　※全部門に関わる設定変更となり全部門の了承が必要です。
+　※レイアウトの変更も必要となりますので全帳票の検証等、対応費用が必要です。
+
+②KMSセグメントのみ異なる処理として仕様を修正し、設定を変更
+　※KEIMSⅡ修正費用が発生します。
+
+上記ご確認の上、対応が必要とご判断頂いた場合、費用算出させて頂きます。
+
+以上ご検討のほど宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kakami-yuu@kyb.co.jp <kakami-yuu@kyb.co.jp> の代理で送信
+送信日時: 2018年1月31日 10:43:45
+宛先: fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-project@fujixerox.co.jp
+件名: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について
+
+
+富士ゼロックス　深谷様
+
+いつもお世話になっております。KMS技術部の各務です。
+
+出図依頼帳票に表示される⊿ですが、「表題欄デルタ」に入力されている値を表示させる
+仕様に変更したいと思った場合、どのような工程になるでしょうか？
+（全社共通属性のため、他部門の承認が必要等）
+
+今回、多品一葉図を出図しようとした際に出図依頼帳票に表示される⊿が、個別デルタなので
+わかりづらいという意見を技術部内より受けたので確認をしています。
+
+ご多忙のところ申し訳ないですが、回答いただけると幸いです。
+
+以上です。
+よろしくお願い致します。
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","kakami-yuu@kyb.co.jp","kakami-yuu@kyb.co.jp","SMTP","noguchi-yosh@kyb.co.jp;keims2-support@fujixerox.co.jp","noguchi-yosh@kyb.co.jp;keims2-support@fujixerox.co.jp","SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3913) RE: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について","KYBモーターサイクルサスペンション株式会社
+各務様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+先程はお時間頂きましてありがとうございます。
+本件、対応不要と伺っておりましたのでクローズとさせて頂きます。
+
+また何かございましたらご連絡頂ければと存じます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx FUKAYA SHUJI の代理で送信
+送信日時: 2018年3月6日 17:13
+宛先: kakami-yuu@kyb.co.jp
+CC: noguchi-yosh@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3907) RE: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について
+
+KYBモーターサイクルサスペンション株式会社
+各務様
+
+いつも大変お世話になっております。
+富士ゼロックスの深谷です。
+
+1/31にお問合せ頂いておりました件、
+その後の検討は如何でしょうか？
+
+もし対応が必要なのであればご連絡頂ければと存じます。
+
+以上、何卒よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年2月1日 15:08
+宛先: kakami-yuu@kyb.co.jp; fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-support@fujixerox.co.jp
+件名: (keims2-support 3757) RE: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について
+
+KMS技術部
+各務様
+
+いつもお世話になっております。
+富士ゼロックスの百合草です。
+ご質問頂いた件、以下のとおり回答させて頂きます。
+
+対応方法としては以下の2通りです。
+
+①現在の仕様のままで、設定を変更する
+　※全部門に関わる設定変更となり全部門の了承が必要です。
+　※レイアウトの変更も必要となりますので全帳票の検証等、対応費用が必要です。
+
+②KMSセグメントのみ異なる処理として仕様を修正し、設定を変更
+　※KEIMSⅡ修正費用が発生します。
+
+上記ご確認の上、対応が必要とご判断頂いた場合、費用算出させて頂きます。
+
+以上ご検討のほど宜しくお願い致します。
+
+**********************************
+ 富士ゼロックス株式会社
+ インダストリービジネスソリューション・サービス事業本部
+ 製造・流通ソリューション・サービス統括
+ ソリューション・サービス第二技術部
+ 百合草 陽介
+ TEL  03-5717-1363
+ Fax  03-5717-1368
+ E-mail  yosuke.yurikusa@fujixerox.co.jp
+**********************************
+
+________________________________________
+差出人: keims2-project <keims2-project-bounces@fujixerox.co.jp> が kakami-yuu@kyb.co.jp <kakami-yuu@kyb.co.jp> の代理で送信
+送信日時: 2018年1月31日 10:43:45
+宛先: fx FUKAYA SHUJI
+CC: noguchi-yosh@kyb.co.jp; keims2-project@fujixerox.co.jp
+件名: (keims2-project 23348) KEIMSⅡ　出図依頼帳票に表示される⊿について
+
+
+富士ゼロックス　深谷様
+
+いつもお世話になっております。KMS技術部の各務です。
+
+出図依頼帳票に表示される⊿ですが、「表題欄デルタ」に入力されている値を表示させる
+仕様に変更したいと思った場合、どのような工程になるでしょうか？
+（全社共通属性のため、他部門の承認が必要等）
+
+今回、多品一葉図を出図しようとした際に出図依頼帳票に表示される⊿が、個別デルタなので
+わかりづらいという意見を技術部内より受けたので確認をしています。
+
+ご多忙のところ申し訳ないですが、回答いただけると幸いです。
+
+以上です。
+よろしくお願い致します。
+
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","kakami-yuu@kyb.co.jp","kakami-yuu@kyb.co.jp","SMTP","noguchi-yosh@kyb.co.jp;keims2-support@fujixerox.co.jp","noguchi-yosh@kyb.co.jp;keims2-support@fujixerox.co.jp","SMTP;SMTP",,,,,,"標準","標準"
+"(keims2-support 3912) Re: エラーメールについて","百合草さん
+
+お疲れ様です。深谷です。
+
+メーリングリストの設定はどなたでも設定可能ですので、
+必要に応じて下記URLから設定して下さい。
+
+------------------
+■メーリングリスト名
+　keims2-project@fujixerox.co.jp
+
+　メーリングリスト設定ページ
+　http://ml-gio.fujixerox.co.jp/mailman/admin/keims2-project
+
+　※管理者パスワードは『keims2-project001』になります。
+------------------
+
+
+------------------
+■メーリングリスト名
+　keims2-support@fujixerox.co.jp
+
+　メーリングリスト設定ページ
+　http://ml-gio.fujixerox.co.jp/mailman/admin/keims2-support
+
+　※管理者パスワードは『keims2-support001』になります。
+------------------
+
+以上です。
+よろしくお願い致します。
+________________________________________
+差出人: keims2-support <keims2-support-bounces@fujixerox.co.jp> が fx YURIKUSA YOSUKE の代理で送信
+送信日時: 2018年3月7日 9:33
+宛先: keims2-support@fujixerox.co.jp
+件名: (keims2-support 3910) エラーメールについて
+
+深谷さん　皆様
+
+お疲れ様です、百合草です。
+
+本日9:28に以下エラーメールが配信されたかと思います。
+・fxY728d が exg01.kdc.fujixerox.co.jp で見つかりませんでした。
+
+これは、昨日崔入文さんのアカウントを失効させたためとなります。
+
+深谷さん＞MLから崔入文さんのアカウントを外して頂けますか？
+
+以上宜しくお願い致します。
+□■━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+　　富士ゼロックス株式会社
+　　インダストリービジネスソリューション・サービス事業本部
+　　製造・流通SS統括 SS第2技術部
+　　百合草 陽介（Yosuke Yurikusa）
+　　Email：yosuke.yurikusa@fujixerox.co.jp
+　　TEL：03-5717-1363　　FAX：03-5717-1368
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━■□
+
+
+","keims2-support","keims2-support-bounces@fujixerox.co.jp","SMTP","fx YURIKUSA YOSUKE","/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1ecfe18fd1ec47259489f71875230fb5-fx29392","EX","keims2-support@fujixerox.co.jp","keims2-support@fujixerox.co.jp","SMTP",,,,,,"標準","標準"
